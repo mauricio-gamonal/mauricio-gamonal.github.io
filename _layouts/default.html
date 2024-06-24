@@ -45,6 +45,18 @@
           <a href="{{ site.url }}/etcetera"><button class="navbutton">More</button></a>
         </nav>
 
+	 <section>
+        <div id="title">
+          <h1 style="font-weight: 500">{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits left">Find me in GitHub: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <span class="credits right">Theme based on "Midnight", by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+        </div>
+
+        {{ content }}
+
+      </section>      
 
     {% if site.google_analytics %}
       <script>
@@ -71,19 +83,6 @@
 		</center>
 	</footer>
 	    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1 style="font-weight: 500">{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <span class="credits left">Page by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme based on "Midnight", by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
-        </div>
-
-        {{ content }}
-
-      </section>
 
     </div>
   </body>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="https://alves-nickolas.github.io/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://mauricio-gamonal.github.io/Uroboro.png">
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
 	  <div class="dropdown"><button class="dropbtn">Research</button>
             <div class="dropdown-content">
               <a href="{{ site.url }}/research/interests">Interests</a>
-	      <a href="{{ site.url }}/research/msc">Nonperturbative Aspects of QFTCS</a>
+	      <a href="{{ site.url }}/research/msc">Cosmic Inflation</a>
             </div>
           </div>
 	  <div class="dropdown"><button class="dropbtn">Projects</button>
@@ -38,16 +38,39 @@
 	  <a href="{{ site.url }}/seminars"><button class="navbutton">Seminars</button></a>
           <div class="dropdown"><button class="dropbtn">Teaching</button>
             <div class="dropdown-content">
-	      <a href="{{ site.url }}/teaching/proofs">Técnicas de Demonstração</a>
-	      <a href="{{ site.url }}/teaching/algebricos">Métodos Algébricos da Física Teórica</a>
-              <a href="{{ site.url }}/teaching/mecanica">Mecânica Clássica</a>
-              <a href="{{ site.url }}/teaching/latex">Introdução ao LaTeX</a>
+	      <a href="{{ site.url }}/teaching/proofs">Spanish</a>
+	      <a href="{{ site.url }}/teaching/algebricos">English</a>
             </div>
           </div> 
-          <a href="{{ site.url }}/etcetera"><button class="navbutton">Et cetera</button></a>
+          <a href="{{ site.url }}/etcetera"><button class="navbutton">More</button></a>
         </nav>
 
-    <div class="wrapper">
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </center>
+  <footer>
+		<center>
+			<address>Mauricio Gamonal
+			<br/><a href="http://srv2.fis.uc.cl/~postgrado/alumni.php" target="_blank">MSc in Physics @ Pontificia Universidad Católica de Chile </a>
+			<br/><a href="https://science.psu.edu/physics/people/mfg5767" target="_blank">PhD Candidate in Physics @ Pennsylvania State University </a>
+			<br/><a href="mailto:mgamonal@psu.edu">Contact</a>
+			<br/><a href="https://alves-nickolas.github.io/pdf/CV2024.pdf" target="_blank">Curriculum Vitæ</a>
+			<br/><a href="https://scholar.google.com/citations?user=ENjqVhcAAAAJ" target="_blank">Google Scholar</a>
+			<br/><a href="https://inspirehep.net/authors/1720241" target="_blank">Inspire HEP</a>	
+			<br/><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-0677-4926" href="https://orcid.org/0000-0002-0677-4926" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-0677-4926</a></div>
+			</address>
+		</center>
+	</footer>
+	    <div class="wrapper">
 
       <section>
         <div id="title">
@@ -63,31 +86,5 @@
       </section>
 
     </div>
-
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </center>
-  <footer>
-		<center>
-			<address>Níckolas de Aguiar Alves 
-			<br/>Master in Physics
-			<br/><a href="http://fisica.ufabc.edu.br/index.php/en/" target="_blank">Physics @ Federal University of ABC</a>
-			<br/><a href="mailto:alves.nickolas@alumni.usp.br">Contact</a>
-			<br/><a href="https://alves-nickolas.github.io/pdf/CV2023.pdf" target="_blank">Curriculum Vitae</a>
-			<br/><a href="http://lattes.cnpq.br/4933609438452718" target="_blank">Lattes Curriculum</a>
-			<br/><a href="https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en" target="_blank">Google Scholar</a>
-			<br/><a href="https://inspirehep.net/authors/2663271" target="_blank">Inspire HEP</a>	
-			<br/><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-0309-735X" href="https://orcid.org/0000-0002-0309-735X" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-0309-735X</a></div>
-			</address>
-		</center>
-	</footer>
   </body>
 </html>

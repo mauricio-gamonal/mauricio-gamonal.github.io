@@ -1,9 +1,12 @@
-# Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime
+# My Interests in Cosmic Inflation
 
-This page is a brief summary about my MSc thesis, entitled _Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime_. It is available at the arXiv: [2305.17453 [gr-qc]](https://arxiv.org/abs/2305.17453).
+My fascination with cosmic inflation lies at the interface between quantum mechanics and gravity. This early period of rapid expansion in the universe offers a unique window into the fundamental workings of the universe, where the principles of quantum mechanics influence gravitational forces at the largest scales. Understanding this interplay not only provides insights into the origins of the universe but also helps in unifying the theories of the very small and the very large.
 
-## Abstract
+For more visual insight, check out this [picture](link_to_picture.jpg) that illustrates the concept of cosmic inflation.
 
-Quantum field theory in curved spacetime is perhaps the most reliable framework in which one can investigate quantum effects in the presence of strong gravitational fields. Nevertheless, it is often studied by means of perturbative treatments. In this thesis, we aim at using the functional renormalization group—a nonperturbative realization of the renormalization group—as a technique to describe nonperturbative quantum phenomena in curved spacetimes. The chosen system is an Unruh–DeWitt particle detector coupled to a scalar quantum field. We discuss how to formulate such a system in terms of an action and how one can compute its renormalization group flow in the case of an inertial detector in flat spacetime, for simplicity. We learn, however, that the results are divergent in the limit in which the detector's energy gap vanishes. Possible workarounds are discussed at the end. 
+You can read a comprehensive study on this topic in this [paper](link_to_paper.pdf).
 
-This thesis also presents a review of quantum field theory in curved spacetimes by means of the algebraic approach, although it assumes no previous experience with functional analysis. Hence, it fills a pedagogical gap in the literature. Furthermore, we also review the functional renormalization group and derive the Wetterich equation assuming a general field content that might include both bosonic and fermionic fields. Such a derivation is also hardly found in pedagogical introductions available in the high energy physics literature.
+Here are some PDF previews of related files:
+- [Preview File 1](file1.pdf)
+- [Preview File 2](file2.pdf)
+- [Preview File 3](file3.pdf)

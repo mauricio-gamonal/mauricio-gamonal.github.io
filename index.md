@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="./Uroboro.ico">
+
 <div align="center">
   <img src="/Perfil-PennState.jpeg" alt="Mauricio's profile picture" width="256" height="256">
 </div>
@@ -7,4 +9,4 @@ Hello, there! I'm Mauricio Gamonal, a Chilean theoretical physicist and Fulbrigh
 
 My work explores the interface between Quantum Mechanics and Gravity, both from theoretical and phenomenological perspectives. I have recently studied the physics of purely gravitational models of cosmic inflation and its consequences for precision cosmology. However, I will be soon pushing towards the fully quantum regime, particularly within the framework of the spinfoam approach to quantum gravity. 
 
-Previously, I graduated of a MSc in Theoretical Physics and a BSc in Physics, both at the Pontificia Universidad Católica de Chile, under the supervision of Prof. Jorge Alfaro. 
+Previously, I graduated of a MSc in Theoretical Physics and a BSc in Physics, both awarded by the Pontificia Universidad Católica de Chile, under the supervision of Prof. Jorge Alfaro. 

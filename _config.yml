@@ -9,3 +9,41 @@ plugins:
   - jekyll-include-cache
 title: Mauricio Gamonal
 description: Personal website
+# Site Author
+author:
+  name             : "Mauricio Gamonal"
+  avatar           : "Perfil-PennState.jpeg"
+  bio              : "PhD Candidate at Penn State"
+  location         : "State College, PA"
+  email            : "mgamonal@psu.edu"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : 
+  foursquare       :
+  github           : "mauricio-gamonal"
+  google_plus      :
+  keybase          :
+  instagram        : "cosmo.mauri"
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : "cosmo_mauri"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  # Custom author fields follow
+  arxiv            : "stein_l_1"
+  orcid            : "0000-0001-7559-9597"
+  inspire          : "L.C.Stein.2"
+  google-scholar   : "6wuRRmcAAAAJ"
+  mastodon         :
+    handle         : 
+    instance       : 

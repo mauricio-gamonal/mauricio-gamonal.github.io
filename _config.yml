@@ -28,7 +28,7 @@ author:
   keybase          :
   instagram        : "cosmo.mauri"
   lastfm           :
-  linkedin         :
+  linkedin         : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -40,10 +40,10 @@ author:
   xing             :
   youtube          :
   # Custom author fields follow
-  arxiv            : "stein_l_1"
-  orcid            : "0000-0001-7559-9597"
-  inspire          : "L.C.Stein.2"
-  google-scholar   : "6wuRRmcAAAAJ"
+  arxiv            : "gamonal_m_1"
+  orcid            : "0000-0002-0677-4926"
+  inspire          : "M.Gamonal.1"
+  google-scholar   : "ENjqVhcAAAAJ"
   mastodon         :
     handle         : 
     instance       : 

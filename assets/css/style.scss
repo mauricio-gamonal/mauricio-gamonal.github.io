@@ -51,16 +51,17 @@
   font-style: normal;
 }
 
+
 a:link {
-	color: #f26a49
+    color:#833a29
 }
 
 a:visited {
-	color: #f0be52
+    color:#431850
 }
 
 a:active {
-	color: #f19e58
+    color: #ffffff;
 }
 
 a:hover {
@@ -221,11 +222,12 @@ body {
  padding:0px 0 20px 0px;
  margin:0px;
  font:14px/1.5 "MontserratRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
- color:#f0e7d5;
+ color:#000000;
  font-weight:normal;
  background-color: #202020;
  background-attachment:fixed !important;
- background:linear_gradient(#2a2a29, #1c1c1c)
+ background:linear_gradient(to right, #2a2a29, rgb(255, 255, 255) 50%, #1c1c1c)
+	 
 }
 
 h1,
@@ -234,7 +236,7 @@ h3,
 h4,
 h5,
 h6 {
- color:#e8e8e8;
+ color:#000000;
  margin:0 0 10px;
  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
  font-weight:normal

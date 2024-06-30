@@ -128,6 +128,13 @@ nav {
 	background-color: #f19e58;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
 .navbutton {
 	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #202020;
@@ -206,7 +213,10 @@ nav {
 	z-index: 99;
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 600px) {
+	.container {
+        padding: 0 15px;
+   }
 	#header {
 		margin-top:-20px
 	}

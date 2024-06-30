@@ -7,3 +7,5 @@ For more visual insight, check out this from [Swagat Saurav Mishra](https://swag
 
 ![inflation!](/research/inflation/inf_hub_comov.png) 
 
+$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$
+

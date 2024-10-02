@@ -24,8 +24,8 @@ In [3], collaborators and I are exploring the covariant formulation of LQG, the 
 
 
 # References
-[1] E. Bianchi and **M. Gamonal**, "Primordial power spectrum at N3LO in effective theories of inflation," [arXiv:2405.03157](https://arxiv.org/abs/2405.03157) [gr-qc].
-[2] E. Bianchi and **M. Gamonal**, "Squeezed vacua in effective theories of inflation," To appear.
+[1] E. Bianchi and **M. Gamonal**, "Primordial power spectrum at N3LO in effective theories of inflation," [arXiv:2405.03157](https://arxiv.org/abs/2405.03157) [gr-qc].\
+[2] E. Bianchi and **M. Gamonal**, "Squeezed vacua in effective theories of inflation," To appear.\
 [3] E. Bianchi, C. Chen, **M. Gamonal** and Monica Rincon-Ramirez, "Causal EPRL model," To appear.
 
 

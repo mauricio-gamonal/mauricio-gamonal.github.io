@@ -47,3 +47,17 @@ author:
   mastodon         :
     handle         : 
     instance       : 
+
+comments:
+  giscus:
+    enabled: true
+    repo: "mauricio-gamonal/mauricio-gamonal.github.io"
+    repo_id: "R_kgDOMM6a9w"
+    category: "Announcements"
+    category_id: "DIC_kwDOMM6a984CjmiM"
+    mapping: "pathname"
+    reactions_enabled: "1"
+    theme: "light_high_contrast"
+    input-position: "top"
+    lang: "en"
+    crossorigin: "anonymous"

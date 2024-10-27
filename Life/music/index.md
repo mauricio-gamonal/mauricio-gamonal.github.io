@@ -1,5 +1,5 @@
 Concerts I have attended so far in my life:
-<div style="text-align: center;" class="setlistImage"><a href="https://www.setlist.fm/setlist/roger-waters/2012/estadio-nacional-santiago-chile-5bdeeb04.html" title="Roger Waters Setlist Estadio Nacional, Santiago, Chile 2012, The Wall Live" target="_blank"><img src="https://www.setlist.fm/widgets/setlist-image-v1?id=5bdeeb04" alt="Roger Waters Setlist Estadio Nacional, Santiago, Chile 2012, The Wall Live" style="border: 0;" /></a>
+<div style="text-align: center;" class="setlistImage"><a href="https://www.setlist.fm/setlist/roger-waters/2012/estadio-nacional-santiago-chile-5bdeeb04.html" title="Roger Waters Setlist Estadio Nacional, Santiago, Chile 2012, The Wall Live" target="_blank"><img src="https://www.setlist.fm/widgets/setlist-image-v1?id=5bdeeb04&size=thumb" alt="Roger Waters Setlist Estadio Nacional, Santiago, Chile 2012, The Wall Live" style="border: 0;" /></a>
 </div>
 
 <br>
@@ -45,7 +45,7 @@ Concerts I have attended so far in my life:
 <br>
 
 <div style="text-align: center;" class="setlistImage"><a href="https://www.setlist.fm/setlist/greta-van-fleet/2019/teatro-caupolican-santiago-chile-2b939c7a.html" title="Greta Van Fleet Setlist Teatro Caupolicán, Santiago, Chile, World Tour 2019" target="_blank"><img src="https://www.setlist.fm/widgets/setlist-image-v1?id=2b939c7a" alt="Greta Van Fleet Setlist Teatro Caupolicán, Santiago, Chile, World Tour 2019" style="border: 0;" /></a>
-<div><a href="https://www.setlist.fm/edit?setlist=2b939c7a&amp;step=song">Edit this setlist</a> | <a href="https://www.setlist.fm/setlists/greta-van-fleet-3bcc8850.html">More Greta Van Fleet setlists</a></div></div>
+</div>
 
 <br>
 

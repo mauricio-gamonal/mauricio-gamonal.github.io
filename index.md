@@ -1,10 +1,10 @@
 <link rel="shortcut icon" type="image/x-icon" href="./Uroboro.ico">
 
 <div align="center">
-  <img src="/Perfil-PennState-circle.jpeg" alt="Mauricio's profile picture" width="256" height="256">
+  <img src="/Perfil-PennState-circle.png" alt="Mauricio's profile picture" width="256" height="256">
 </div>
 
-\n
+ <br>
 
 Hello, there! I'm Mauricio Gamonal, a Chilean theoretical physicist and Fulbright fellow through the ANID-BIO Scholarship. Currently, I pursue a PhD in Physics at the Pennsylvania State University under the supervision of Prof. Eugenio Bianchi. 
 

@@ -4,6 +4,8 @@ The regime previous to the Hot Big Bang that naturally explains the super-horizo
 
 For more visual insight, check out this from [Swagat Saurav Mishra](https://swagatam18.wordpress.com/physics-through-figures-and-graphs/) 
 
+<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRevD.110.104032"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 
 ![inflation!](/research/inflation/inf_hub_comov.png) 
 

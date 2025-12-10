@@ -1,9 +1,8 @@
----
-layout: default
-title: Publications
-permalink: /publications/
----
+<script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.6/bibtex_js.min.js"></script>
 
-# List of publications
+<bibtex src="_bibliography/my-pubs.bib"></bibtex>
 
-{% bibliography %}
+<script>
+  // optional: sort newest → oldest
+  BibtexParser.sort = function(a, b) { return b.year - a.year; };
+</script>

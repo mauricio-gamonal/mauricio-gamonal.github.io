@@ -13,15 +13,9 @@
   </h1>
 
   <h3 style="margin-top:0; margin-bottom:15px; font-weight:normal; color:#555;">
-    Theoretical physicist · Quantum gravity & primordial cosmology
+    Theoretical physicist · quantum gravity & primordial cosmology
   </h3>
 
-  <div style="margin-bottom:25px;">
-    <a href="/Docs/CV/" class="button">CV</a>
-    <a href="/research/interests/" class="button">Research</a>
-    <a href="/blog/" class="button">Blog</a>
-    <a href="/Resources/" class="button">Resources</a>
-  </div>
 
 </div>
 
@@ -31,7 +25,7 @@
     Hello, there! I’m <strong>Mauricio Gamonal</strong>, a Chilean theoretical physicist and
     Fulbright fellow supported by the ANID–BIO Scholarship. I am currently pursuing a PhD in Physics
     at <strong>The Pennsylvania State University</strong>, under the supervision of
-    <strong>Prof. Eugenio Bianchi</strong>.
+    <strong>[Eugenio Bianchi](https://ebianchi.org)</strong>.
   </p>
 
   <p>
@@ -46,7 +40,7 @@
   <p>
     Previously, I completed both my <strong>MSc in Theoretical Physics</strong> and
     <strong>BSc in Physics</strong> at <strong>Pontificia Universidad Católica de Chile</strong>,
-    under the supervision of <strong>Prof. Jorge Alfaro</strong>.
+    under the supervision of <strong>[Jorge Alfaro](https://www.fis.uc.cl/~academiasenior/web/JA/JA.html)</strong>.
   </p>
 
 </div>

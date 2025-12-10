@@ -7,8 +7,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-title: 
-description: 
+title: asd
+description: asd
 # Site Author
 author:
   name             : "Mauricio Gamonal"
@@ -20,7 +20,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "mauro_gsm"
   facebook         : 
   foursquare       :
   github           : "mauricio-gamonal"
@@ -28,7 +28,7 @@ author:
   keybase          :
   instagram        : "cosmo.mauri"
   lastfm           :
-  linkedin         : 
+  linkedin         : "mauricio-gamonal" 
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)

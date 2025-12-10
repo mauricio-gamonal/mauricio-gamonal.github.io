@@ -7,8 +7,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-#title: Mauricio Gamonal
-#description: Personal website
+title: 
+description: 
 # Site Author
 author:
   name             : "Mauricio Gamonal"

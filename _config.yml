@@ -5,6 +5,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-scholar
   - jemoji
   - jekyll-include-cache
 title: Mauricio Gamonal
@@ -48,6 +49,14 @@ author:
     handle         : 
     instance       : 
 
+scholar:
+  style: aps
+  locale: en
+  sort_by: year
+  order: descending
+  source: ./_bibliography
+  bibliography: my-pubs.bib
+  
 comments:
   giscus:
     enabled: true

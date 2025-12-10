@@ -135,7 +135,6 @@ nav {
 
 
 .navbutton {
-	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #E9EEF7;
 	border: none;
 	color: #3366cc;
@@ -201,6 +200,13 @@ nav {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #f19e58; color: #202020} 
+
+.navbutton,
+.navbuttona,
+.dropbtn {
+    font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
 
 
 #Menu {
@@ -273,7 +279,6 @@ dt {
 }
 
 #header nav li {
- font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
  font-weight:normal;
  list-style:none;
  display:inline;

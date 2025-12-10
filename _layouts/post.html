@@ -13,5 +13,11 @@ layout: default
 
   {{ content }}
 
+  {% assign words = content | number_of_words %}
+{% assign minutes = words | divided_by: 200 | plus: 1 %}
+<span>{{ minutes }} min read</span>
+
+
   <p><a href="/blog/">&larr; Back to blog</a></p>
+  
 </article>

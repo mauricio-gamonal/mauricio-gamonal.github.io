@@ -23,24 +23,17 @@
 
   <p>
     Hello, there! I’m <strong>Mauricio Gamonal</strong>, a Chilean theoretical physicist and
-    Fulbright fellow supported by the ANID–BIO Scholarship. I am currently pursuing a PhD in Physics
+    Fulbright fellow. I am currently pursuing a Ph.D. in Physics
     at <strong>The Pennsylvania State University</strong>, under the supervision of
-    <strong>[Eugenio Bianchi](https://ebianchi.org)</strong>.
-  </p>
-
-  <p>
-    My work explores the interface between <strong>quantum mechanics</strong> and
-    <strong>gravity</strong>, from both theoretical and phenomenological perspectives.
-    Recently, I have studied <strong>purely gravitational models of cosmic inflation</strong>
-    and their implications for precision cosmology. In the near future, I will be pushing
-    toward the fully quantum regime, particularly within the framework of the
-    <strong>spinfoam approach to quantum gravity</strong>.
+    <a href="https://ebianchi.org" target="_blank" rel="noopener noreferrer">Prof. Eugenio Bianchi</a>. My work explores the interface between <strong>quantum gravity</strong> and
+    <strong>cosmology</strong>, from both theoretical and phenomenological perspectives.
   </p>
 
   <p>
     Previously, I completed both my <strong>MSc in Theoretical Physics</strong> and
     <strong>BSc in Physics</strong> at <strong>Pontificia Universidad Católica de Chile</strong>,
-    under the supervision of <strong>[Jorge Alfaro](https://www.fis.uc.cl/~academiasenior/web/JA/JA.html)</strong>.
+    under the supervision of <a href="https://www.fis.uc.cl/~academiasenior/web/JA/JA.html" target="_blank" rel="noopener noreferrer">
+Prof. Jorge Alfaro</a>.
   </p>
 
 </div>

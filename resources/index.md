@@ -5,7 +5,7 @@ A curated collection of tools, portals, seminars and collaborations I use freque
 ---
 
 ### **Preprints and Literature**
-- **arXiv**: [https://arxiv.org](https://arxiv.org)
+- **arXiv**: [gr-qc](https://arxiv.org/list/gr-qc/new),[hep-th](https://arxiv.org/list/hep-th/new), [astro-ph.CO](https://arxiv.org/list/astro-ph.CO/new) 
 - **INSPIRE-HEP**: [https://inspirehep.net](https://inspirehep.net)
 - **ADS (NASA/SAO)**: [https://ui.adsabs.harvard.edu](https://ui.adsabs.harvard.edu)
 
@@ -14,9 +14,17 @@ A curated collection of tools, portals, seminars and collaborations I use freque
 ### **Institutions and Organizations**
 - **Institute for Cosmology and Gravitation**: [https://igc.psu.edu](https://igc.psu.edu)
 - **WOST Consortium**: [https://withoutspacetime.org](https://withoutspacetime.org)
-- **Cosmology in Chile**: [https://sites.google.com/view/cosmology-in-chile](https://sites.google.com/view/cosmology-in-chile)
 - **International Society on Loop Quantum Gravity**: [https://www.islqg.com](https://www.islqg.com)
 - **International Society of Quantum Gravity**: [https://isqg.org](https://isqg.org)
+- **Center for SpaceTime and the Quantum**: [https://www.cstq.org](https://www.cstq.org)
+- **International Society on General Relativity and Gravitation** [http://www.isgrg.org](http://www.isgrg.org)
+  
+
+---
+### **Chilean groups on gravitation and cosmology**
+- **Cosmology in Chile**: [Chilean community of researchers in cosmology](https://sites.google.com/view/cosmology-in-chile)
+- **CosmoUChile**: [Group of cosmology at Universidad de Chile](https://www.youtube.com/@cosmouchile8672/videos)
+- **GravUC**: [Group of gravitation and cosmology at P. Universidad Catolica de Chile](https://www.instagram.com/grav_uc/)
 
 ---
 
@@ -32,14 +40,16 @@ A curated collection of tools, portals, seminars and collaborations I use freque
 ---
 
 ### **Tools & Computational Resources**
-- **Mathematica** + `xAct` suite:  
+- **Mathematica** + xAct suite:  
   [https://www.xact.es](https://www.xact.es)
 - **CAMB** (Cosmic Microwave Background solver):  
   [https://camb.info](https://camb.info)
 - **CLASS** Boltzmann code:  
   [https://github.com/lesgourg/class_public](https://github.com/lesgourg/class_public)
-- **NumPy / SciPy / Matplotlib**:  
+- **SciPy**:  
   [https://scipy.org](https://scipy.org)
+- **Matplotlib**: [https://matplotlib.org](https://matplotlib.org)
+- **Vast collection of resources for cosmology**: [https://jrdmb.netlify.app/](https://jrdmb.netlify.app/)
 
 ---
 

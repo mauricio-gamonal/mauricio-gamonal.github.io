@@ -7,8 +7,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-title: asd
-description: asd
+title: Mauricio Gamonal
+description: Personal Website
 # Site Author
 author:
   name             : "Mauricio Gamonal"

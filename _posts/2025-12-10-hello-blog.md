@@ -14,6 +14,4 @@ For example, a teaser:
 
 And a small equation (if you're using MathJax):
 
-\\[
-\mathcal{P}_{\mathcal{R}}(k) = A_s \left(\frac{k}{k_\star}\right)^{n_s - 1 + \frac{1}{2}\alpha_s \ln(k/k_\star) + \cdots}.
-\\]
+$$\oint f(z) dz = 0$$

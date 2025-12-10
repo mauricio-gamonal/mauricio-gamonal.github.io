@@ -161,13 +161,14 @@ nav {
 }
 
 .navbuttona:hover {
-	background-color: #E6E9F0;
+	background-color: #f19e58;
+	color: #202020;
 }
 
 .dropbtn {
-	background-color: #f19e58;
+	background-color: #E9EEF7;
 	border: none;
-	color: #202020;
+	color: #3366CC;
 	padding: 8px 15px;
 	text-align: center;
 	font-size: 16px;
@@ -199,7 +200,7 @@ nav {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #E6E9F0; color: #E9EEF7} 
+.dropdown:hover .dropbtn {background-color: #f19e58; color: #202020} 
 
 
 #Menu {

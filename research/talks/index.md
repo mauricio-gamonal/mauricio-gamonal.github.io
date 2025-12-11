@@ -1,20 +1,47 @@
 ---
 layout: default
 title: Talks
-permalink: /research/talks/
 ---
 
-# Talks
+# Invited Talks
 
 <ul>
-{% assign talks = site.data.talks | sort: "date" | reverse %}
-{% for t in talks %}
+{% for talk in site.data.talks.invited %}
   <li>
-    <strong>{{ t.title }}</strong><br>
-    {{ t.event }} — {{ t.location }} ({{ t.date | date: "%B %-d, %Y" }})
-    {% if t.link %}
-      • <a href="{{ t.link }}">slides/video</a>
+    {% if talk.link %}
+      <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+    {% else %}
+      {{ talk.title }}
     {% endif %}
+    — {{ talk.location }} ({{ talk.date | date: "%B %Y" }})
+  </li>
+{% endfor %}
+</ul>
+
+# Contributed Talks
+<ul>
+{% for talk in site.data.talks.contributed %}
+  <li>
+    {% if talk.link %}
+      <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+    {% else %}
+      {{ talk.title }}
+    {% endif %}
+    — {{ talk.location }} ({{ talk.date | date: "%B %Y" }})
+  </li>
+{% endfor %}
+</ul>
+
+# Summer Schools & Workshops
+<ul>
+{% for talk in site.data.talks.schools %}
+  <li>
+    {% if talk.link %}
+      <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+    {% else %}
+      {{ talk.title }}
+    {% endif %}
+    — {{ talk.location }} ({{ talk.date | date: "%B %Y" }})
   </li>
 {% endfor %}
 </ul>

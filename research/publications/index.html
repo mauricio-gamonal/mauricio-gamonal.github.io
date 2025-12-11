@@ -8,12 +8,12 @@ permalink: /research/publications/
   Publications
 </h1>
 
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = pubs | map: "year" | uniq | sort | reverse %}
+{% assign pubs = site.data.publications %}
+{% assign years = pubs | map: "year" | uniq %}
 
 
 {% for y in years %}
-Works finished in {{ y }}
+ {{ y }}
 
 <ul class="custom-bullets">
   {% for p in pubs %}

@@ -1,8 +1,76 @@
-<script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.6/bibtex_js.min.js"></script>
+---
+layout: default
+title: Publications
+permalink: /research/publications/
+---
 
-<bibtex src="_bibliography/my-pubs.bib"></bibtex>
+<h1>Publications</h1>
+
+<p>
+  This list is generated automatically from a BibTeX file.
+</p>
+
+<div id="publications">
+  Loading publications…
+</div>
+
+<!-- 1) BibTeX parser library -->
+<script src="https://cdn.jsdelivr.net/npm/bibtex-parse-js@1.0.2/lib/bibtex-parse.js"></script>
 
 <script>
-  // optional: sort newest → oldest
-  BibtexParser.sort = function(a, b) { return b.year - a.year; };
+  // 2) Helper: format one BibTeX entry into HTML
+  function formatEntry(entry) {
+    const fields = entry.entryTags || {};
+
+    const authors = fields.author || "";
+    const title   = fields.title || "";
+    const journal = fields.journal || "";
+    const year    = fields.year || "";
+    const doi     = fields.doi || "";
+    const eprint  = fields.eprint || "";
+
+    let line = "";
+
+    if (authors) line += authors + ". ";
+    if (title)   line += "<strong>" + title + "</strong>. ";
+    if (journal) line += "<em>" + journal + "</em>. ";
+    if (year)    line += " (" + year + ").";
+
+    if (doi) {
+      line += ' <a href="https://doi.org/' + doi + '" target="_blank" rel="noopener noreferrer">DOI</a>';
+    } else if (eprint) {
+      line += ' <a href="https://arxiv.org/abs/' + eprint + '" target="_blank" rel="noopener noreferrer">arXiv</a>';
+    }
+
+    return "<li>" + line + "</li>";
+  }
+
+  // 3) Load the BibTeX file (path relative to site root!)
+  fetch("/_bibliography/my-pubs.bib")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.text();
+    })
+    .then(text => {
+      const entries = bibtexParse.toJSON(text);
+
+      // Optional: sort by year (desc)
+      entries.sort((a, b) => {
+        const ya = parseInt(a.entryTags.year || "0", 10);
+        const yb = parseInt(b.entryTags.year || "0", 10);
+        return yb - ya;
+      });
+
+      const htmlList =
+        "<ul>" + entries.map(formatEntry).join("\n") + "</ul>";
+
+      document.getElementById("publications").innerHTML = htmlList;
+    })
+    .catch(error => {
+      console.error("Error loading BibTeX:", error);
+      document.getElementById("publications").innerHTML =
+        "Could not load publications.";
+    });
 </script>

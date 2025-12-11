@@ -19,29 +19,19 @@
   
 </div>
 
-  <!-- Research Interests 
-  <div class="info-card">
-    <h2>Research Interests</h2>
-    <ul class="info-list">
-      <li>Spinfoam quantum gravity</li>
-      <li>Higher-curvature inflation</li>
-      <li>Early-Universe phenomenology</li>
-    </ul>
-  </div>  
-  -->
 
   <!-- News -->
   <div class="news-card">
     <h2>News</h2>
     <ul class="news-list">
-      <li>Feb 2026 — Invited to give an ILQGS seminar.</li>
-      <li>Dec 2025 — [TBA] Paper on aausal spinfoam vertex.</li>
-      <li>Jun 2025 — [arXiv] Paper on primordial cosmology from the EFT of gravity.</li>
-      <li>Mar 2025 — Talked at APS. Awarded the DS Excellence in Physics prize.</li>
+      <li>Feb 2026: Invited to give an ILQGS seminar.</li>
+      <li>Dec 2025: [TBA] Paper on causal spinfoam vertex.</li>
+      <li>Jun 2025: [arXiv] Paper on the EFT of gravity.</li>
+      <li>Mar 2025: Talked at APS. Awarded the DS Excellence in Physics prize.</li>
     </ul>
   </div>
 
   <!-- Collaborators -->
   <div class="collab-card">
-   I’m always happy to discuss the physics of the very early Universe, foundational and phenomenological aspects of quantum gravity, philosophy of science, creativity, current affairs of the world any other interesting facet of life itself. 
+   I’m always happy to discuss the physics of the very early Universe, foundational and phenomenological aspects of quantum gravity, philosophy of science, the creative process, current affairs of the world any other interesting facet of life itself. 
   </div>

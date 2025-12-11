@@ -4,13 +4,16 @@ title: Publications
 permalink: /research/publications/
 ---
 
-# Publications
+<h1 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 25px;">
+  Publications
+</h1>
 
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = pubs | map: "year" | uniq %}
+{% assign years = pubs | map: "year" | uniq | sort | reverse %}
+
 
 {% for y in years %}
-### {{ y }}
+Works finished in {{ y }}
 
 <ul class="custom-bullets">
   {% for p in pubs %}

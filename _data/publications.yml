@@ -1,29 +1,84 @@
-- year: 2025
-  type: journal
+- id: Preinflation-2025
+  authors: "E. Bianchi and M. Gamonal"
+  title: "Emergence of preinflationary dynamics in higher order gravity"
+  journal: "in preparation"
+  year: 2026
+  status: "in preparation (expected March 2026)"
+
+- id: Causality-2026
+  authors: "E. Bianchi, C. Chen, and M. Gamonal"
+  title: "Toller functions and Feynman iε for spinfoams"
+  journal: "in preparation"
+  year: 2026
+  status: "in preparation (expected January 2026)"
+
+- id: Causality-2025
+  authors: "E. Bianchi, C. Chen, and M. Gamonal"
+  title: "Causal spinfoam vertex in Lorentzian quantum gravity"
+  journal: "in preparation"
+  year: 2025
+  status: "in preparation (expected December 2025)"
+
+- id: Bianchi-2025-tyl
+  authors: "E. Bianchi and M. Gamonal"
   title: "Precision predictions of Starobinsky inflation with self-consistent Weyl-squared corrections"
-  authors: "M. Gamonal, E. Bianchi"
   journal: "Phys. Rev. D"
-  volume: "XXX"
-  pages: "123456"
-  arxiv: "2501.01234"
-  doi: "10.1103/PhysRevD.XXX"
+  year: 2025
+  volume: 112
+  number: 12
+  pages: "124006"
+  arxiv: "2506.10081"
+  arxiv_field: "gr-qc"
+  doi: "10.1103/vyls-33np"
+  status: "published"
 
-- year: 2024
-  type: journal
-  title: "Causal Lorentzian spinfoam vertex via Toller functions"
-  authors: "M. Gamonal, E. Bianchi"
-  journal: "JHEP"
-  volume: "YYY"
-  pages: "098"
-  arxiv: "2407.01234"
-  doi: "10.1007/JHEPYY(2024)098"
+- id: Bianchi-2024-jmn
+  authors: "E. Bianchi and M. Gamonal"
+  title: "Squeezed vacua and primordial features in effective theories of inflation at N2LO"
+  journal: "Phys. Rev. D"
+  year: 2025
+  volume: 111
+  number: 12
+  pages: "124024"
+  arxiv: "2410.11812"
+  arxiv_field: "gr-qc"
+  doi: "10.1103/hjlj-sv2t"
+  status: "published"
 
-- year: 2022
-  type: journal
-  title: "Primordial cosmology in R+R²−W² gravity"
-  authors: "M. Gamonal, J. Alfaro"
-  journal: "JCAP"
-  volume: "ZZZ"
-  pages: "001"
-  arxiv: "2203.01234"
-  doi: "10.1088/1475-7516/2022/03/001"
+- id: Bianchi-2024-qyp
+  authors: "E. Bianchi and M. Gamonal"
+  title: "Primordial power spectrum at N3LO in effective theories of inflation"
+  journal: "Phys. Rev. D"
+  year: 2024
+  volume: 110
+  number: 10
+  pages: "104032"
+  arxiv: "2405.03157"
+  arxiv_field: "gr-qc"
+  doi: "10.1103/PhysRevD.110.104032"
+  status: "published"
+
+- id: Gamonal-2020-itt
+  authors: "M. Gamonal"
+  title: "Slow-roll inflation in f(R,T) gravity and a modified Starobinsky-like inflationary model"
+  journal: "Phys. Dark Univ."
+  year: 2021
+  volume: 31
+  pages: "100768"
+  arxiv: "2010.03861"
+  arxiv_field: "gr-qc"
+  doi: "10.1016/j.dark.2020.100768"
+  status: "published"
+
+- id: Alfaro-2019-sbq
+  authors: "J. Alfaro and M. Gamonal"
+  title: "A nontrivial footprint of standard cosmology in the future observations of low-frequency gravitational waves"
+  journal: "Gen. Rel. Grav."
+  year: 2020
+  volume: 52
+  number: 12
+  pages: "118"
+  arxiv: "1902.04550"
+  arxiv_field: "astro-ph.CO"
+  doi: "10.1007/s10714-020-02771-2"
+  status: "published"

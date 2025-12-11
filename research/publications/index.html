@@ -46,7 +46,7 @@ permalink: /research/publications/
   }
 
   // 3) Load the BibTeX file (path relative to site root!)
-  fetch("/_bibliography/my-pubs.bib")
+  fetch("/assets/bib/my-pubs.bib")
     .then(response => {
       if (!response.ok) {
         throw new Error("Network response was not ok");

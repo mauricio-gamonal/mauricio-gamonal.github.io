@@ -2,7 +2,7 @@
 
 <div class="hero-card">
 
-  <img src="/Perfil-PennState-circle.jpeg"
+  <img src="/Perfil-PennState-circle.png"
        alt="Mauricio's profile picture"
        class="hero-avatar">
 

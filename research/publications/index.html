@@ -16,21 +16,38 @@ permalink: /research/publications/
   {% for p in pubs %}
     {% if p.year == y %}
     <li>
-      {% if p.authors %}{{ p.authors }}.{% endif %}
-      {% if p.title %} <strong>{{ p.title }}</strong>.{% endif %}
-      {% if p.journal %}
-        <em>{{ p.journal }}</em>
-        {% if p.volume %} {{ p.volume }}{% endif %}
-        {% if p.pages %}, {{ p.pages }}{% endif %}.
+
+      {# --- AUTHORS: boldface "M. Gamonal" --- #}
+      {% if p.authors %}
+        {{ p.authors | replace: "M. Gamonal", "<strong>M. Gamonal</strong>" }}.
       {% endif %}
+
+      {# --- TITLE: italic --- #}
+      {% if p.title %}
+        <em>{{ p.title }}</em>.
+      {% endif %}
+
+      {# --- JOURNAL + VOLUME + PAGES as a single DOI hyperlink --- #}
+      {% if p.journal %}
+        {% assign citation_string = p.journal %}
+        {% if p.volume %}{% assign citation_string = citation_string | append: " " | append: p.volume %}{% endif %}
+        {% if p.pages %}{% assign citation_string = citation_string | append: ", " | append: p.pages %}{% endif %}
+
+        {% if p.doi %}
+          <a href="https://doi.org/{{ p.doi }}">{{ citation_string }}</a>.
+        {% else %}
+          {{ citation_string }}.
+        {% endif %}
+      {% endif %}
+
+      {# --- ARXIV --- #}
       {% if p.arxiv %}
         <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>.
       {% endif %}
-      {% if p.doi %}
-        <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>.
-      {% endif %}
+
     </li>
     {% endif %}
   {% endfor %}
 </ul>
+
 {% endfor %}

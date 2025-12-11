@@ -17,4 +17,34 @@
   </ul>
   </div>
 
+  <!-- Research Interests -->
+  <div class="info-card">
+    <h2>Research Interests</h2>
+    <ul class="info-list">
+      <li>Spinfoam quantum gravity</li>
+      <li>Higher-curvature inflation</li>
+      <li>Early-Universe phenomenology</li>
+    </ul>
+  </div>
+
+  <!-- News -->
+  <div class="news-card">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li>Dec 2025 — Causal spinfoam vertex submitted.</li>
+      <li>Nov 2025 — Invited ILQGS seminar.</li>
+      <li>Oct 2025 — APS talk on N³LO cosmology.</li>
+    </ul>
+  </div>
+
+  <!-- Collaborators -->
+  <div class="collab-card">
+    <h2>Collaborators</h2>
+    <ul class="collab-list">
+      <li><a href="https://ebianchi.org">E. Bianchi</a></li>
+      <li><a href="https://www.fis.uc.cl/~academiasenior/web/JA/JA.html">J. Alfaro</a></li>
+      <li>Chaosong Chen</li>
+    </ul>
+  </div>
+
 </div>

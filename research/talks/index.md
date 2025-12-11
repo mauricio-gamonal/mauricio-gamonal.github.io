@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Talks
-permalink: /Docs/Talks/
+permalink: /research/talks/
 ---
 
 # Talks

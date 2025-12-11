@@ -3,7 +3,7 @@
 - type: invited
   date: 2026-02-03
   event: "International Loop Quantum Gravity Seminar"
-  talk_title: ""
+  talk_title: "Toller functions and the causal spinfoam vertex"
   location: "Online"
   link: "https://relativity.phys.lsu.edu/ilqgs/schedulesp26.html"
   slides:
@@ -13,7 +13,7 @@
 - type: invited
   date: 2024-12-06
   event: "Primordial Universe and Gravitation Seminar"
-  talk_title: ""
+  talk_title: 
   location: "IGC, Penn State"
   link: "https://www.instagram.com/p/DDPQVJPxZmG/"
   slides:
@@ -23,10 +23,10 @@
 - type: invited
   date: 2024-09-10
   event: "International Loop Quantum Gravity Seminar"
-  talk_title: ""
+  talk_title: "Primordial power spectrum in effective theories of inflation"
   location: "Online"
   link: "https://relativity.phys.lsu.edu/ilqgs/schedulefa24.html"
-  slides:
+  slides: "/research/talks/slides/gamonal-ilqgs.pdf"
   video:
   notes:
 

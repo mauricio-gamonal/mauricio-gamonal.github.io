@@ -311,3 +311,17 @@ section #title .credits {
  color:#696969;
  margin-top:-10px
 }
+
+ul.custom-bullets li {
+  position: relative;
+  list-style: none;   /* hide default bullet */
+}
+
+ul.custom-bullets li::before {
+  content: "•";               /* the bullet */
+  position: absolute;
+  left: -1.2em;               /* tweak horizontally */
+  color: #202020;             /* <-- your bullet color */
+  font-weight: bold;
+}
+

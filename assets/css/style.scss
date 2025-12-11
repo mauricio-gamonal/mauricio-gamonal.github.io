@@ -330,6 +330,11 @@ ul li::marker {
   font-size: 1.2em;            /* optional */
 }
 
+/* ------------------------------------------------------------
+   HOMEPAGE GRID LAYOUT
+------------------------------------------------------------ */
+
+
 .hero-card {
   max-width: 800px;
   margin: 10px auto 25px;
@@ -368,6 +373,107 @@ ul li::marker {
   margin: 4px 0;
   font-size: 14px;
 }
+
+
+
+
+/* ------------------------------------------------------------
+   SNAPSHOT / QUICK-INFO CARD
+------------------------------------------------------------ */
+
+.info-card {
+  background: #E9EEF7;
+  border-radius: 12px;
+  padding: 20px;
+  color: #202020;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+.info-card h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+/* Labels (e.g. bullets without circles) */
+.info-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-list li {
+  margin-bottom: 6px;
+}
+
+/* ------------------------------------------------------------
+   NEWS / UPDATES CARD
+------------------------------------------------------------ */
+
+.news-card {
+  background: #ffffff;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.news-card h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.news-list {
+  padding-left: 18px;
+}
+
+.news-list li {
+  margin-bottom: 8px;
+}
+
+/* ------------------------------------------------------------
+   COLLABORATORS CARD
+------------------------------------------------------------ */
+
+.collab-card {
+  background: #f7f9fc;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #dde3ee;
+}
+
+.collab-card h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.collab-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.collab-list li a {
+  color: #3366cc;
+}
+
+.collab-list li a:hover {
+  color: #f19e58;
+}
+
+/* ------------------------------------------------------------
+   UTILITY SPACING CLASSES
+------------------------------------------------------------ */
+
+.vspace-sm {
+  margin-top: 8px;
+}
+
+.vspace-md {
+  margin-top: 16px;
+}
+
+.vspace-lg {
+  margin-top: 28px;
+}
+
+
 
 /* Optional: make it stack on small screens */
 @media screen and (max-width: 600px) {

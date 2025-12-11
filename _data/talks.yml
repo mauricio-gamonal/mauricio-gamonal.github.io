@@ -1,197 +1,255 @@
-invited:
-  - title: "International Loop Quantum Gravity Seminar"
-    event: "ILQGS"
-    link: "https://relativity.phys.lsu.edu/ilqgs/schedulesp26.html"
-    place: "Online"
-    date: "2026-02-03"
-    slides: ""
-    video: ""
+# _data/talks.yml
 
-  - title: "Primordial Universe and Gravitation Seminar"
-    event: "IGC Seminar"
-    link: "https://www.instagram.com/p/DDPQVJPxZmG/"
-    place: "Institute for Gravitation & the Cosmos, Penn State"
-    date: "2024-12-06"
-    slides: ""
-    video: ""
+- type: invited
+  date: 2026-02-03
+  event: "International Loop Quantum Gravity Seminar"
+  talk_title: ""
+  location: "Online"
+  link: "https://relativity.phys.lsu.edu/ilqgs/schedulesp26.html"
+  slides:
+  video:
+  notes:
 
-  - title: "International Loop Quantum Gravity Seminar"
-    event: "ILQGS"
-    link: "https://relativity.phys.lsu.edu/ilqgs/schedulefa24.html"
-    place: "Online"
-    date: "2024-09-10"
-    slides: ""
-    video: ""
+- type: invited
+  date: 2024-12-06
+  event: "Primordial Universe and Gravitation Seminar"
+  talk_title: ""
+  location: "IGC, Penn State"
+  link: "https://www.instagram.com/p/DDPQVJPxZmG/"
+  slides:
+  video:
+  notes:
 
-  - title: "GravUC Seminar"
-    event: "GravUC"
-    link: "https://www.instagram.com/p/C00fz-ptMIk/?img_index=1"
-    place: "Pontificia Universidad Católica de Chile"
-    date: "2023-12-15"
-    slides: ""
-    video: ""
+- type: invited
+  date: 2024-09-10
+  event: "International Loop Quantum Gravity Seminar"
+  talk_title: ""
+  location: "Online"
+  link: "https://relativity.phys.lsu.edu/ilqgs/schedulefa24.html"
+  slides:
+  video:
+  notes:
 
-  - title: "Primordial Universe and Gravitation Seminar"
-    event: "IGC Seminar"
-    place: "Penn State"
-    date: "2023-10-27"
-    slides: ""
-    video: ""
+- type: invited
+  date: 2023-12-15
+  event: "GravUC Seminar"
+  talk_title: ""
+  location: "Pontificia Universidad Católica de Chile"
+  link: "https://www.instagram.com/p/C00fz-ptMIk/?img_index=1"
+  slides:
+  video:
+  notes:
 
-  - title: "Primordial Universe and Gravitation Seminar"
-    event: "IGC Seminar"
-    place: "Penn State"
-    date: "2022-11-11"
-    slides: ""
-    video: ""
+- type: invited
+  date: 2023-10-27
+  event: "Primordial Universe and Gravitation Seminar"
+  talk_title: ""
+  location: "IGC, Penn State"
+  link:
+  slides:
+  video:
+  notes:
 
-  - title: "La Parte y el Todo VIII"
-    event: "Afunalhue Meeting"
-    link: "https://www.youtube.com/watch?v=qbFACAyRwEc"
-    place: "Afunalhue, Chile (online talk)"
-    date: "2021-01-04"
-    slides: ""
-    video: "https://www.youtube.com/watch?v=qbFACAyRwEc"
+- type: invited
+  date: 2022-11-11
+  event: "Primordial Universe and Gravitation Seminar"
+  talk_title: ""
+  location: "IGC, Penn State"
+  link:
+  slides:
+  video:
+  notes:
 
-  - title: "PizzaSeminar 2020"
-    event: "PizzaSeminar"
-    link: "https://www.youtube.com/watch?v=XcVIMQKbnTA"
-    place: "Online (in Spanish)"
-    date: "2020-06-17"
-    slides: ""
-    video: "https://www.youtube.com/watch?v=XcVIMQKbnTA"
+- type: invited
+  date: 2021-01-04
+  event: "La Parte y el Todo VIII"
+  talk_title: ""
+  location: "Afunalhue, Chile (online)"
+  link: "https://www.youtube.com/watch?v=qbFACAyRwEc"
+  slides:
+  video: "https://www.youtube.com/watch?v=qbFACAyRwEc"
+  notes: "Online talk"
 
+- type: invited
+  date: 2020-06-17
+  event: "PizzaSeminar 2020"
+  talk_title: ""
+  location: "Online"
+  link: "https://www.youtube.com/watch?v=XcVIMQKbnTA"
+  slides:
+  video: "https://www.youtube.com/watch?v=XcVIMQKbnTA"
+  notes: "Online talk (in Spanish)"
 
-contributed:
-  - title: "Quantum Gravity 2025"
-    event: "QG25"
-    link: "https://sites.psu.edu/2024quantumgravity/program/"
-    place: "Penn State, State College, PA"
-    date: "2025-07-24"
-    slides: ""
-    video: ""
+# ---------------------- CONTRIBUTED TALKS ----------------------
 
-  - title: "7th Neighborhood Workshop"
-    event: "Neighborhood Workshop 7"
-    link: "https://igc.psu.edu/os/events/Neighborhood7/"
-    place: "Penn State"
-    date: "2025-04-03"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2025-07-24
+  event: "Quantum Gravity 2025"
+  talk_title: ""
+  location: "Penn State, State College, PA, USA"
+  link: "https://sites.psu.edu/2024quantumgravity/program/"
+  slides:
+  video:
+  notes:
 
-  - title: "APS Global Physics Summit"
-    event: "APS Summit"
-    link: "https://schedule.aps.org/smt/2025/events/APR-H18/3"
-    place: "Anaheim, CA"
-    date: "2025-03-18"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2025-04-03
+  event: "7th Neighborhood Workshop"
+  talk_title: ""
+  location: "Penn State, State College, PA, USA"
+  link: "https://igc.psu.edu/os/events/Neighborhood7/"
+  slides:
+  video:
+  notes:
 
-  - title: "Loops' 24"
-    event: "Loops Conference"
-    link: "https://indico.cern.ch/event/1203470/contributions/5905001/"
-    place: "FAU, Fort Lauderdale, FL"
-    date: "2024-05-07"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2025-03-18
+  event: "APS Global Physics Summit"
+  talk_title: ""
+  location: "Anaheim, CA, USA"
+  link: "https://schedule.aps.org/smt/2025/events/APR-H18/3"
+  slides:
+  video:
+  notes:
 
-  - title: "6th Neighborhood Workshop"
-    event: "Neighborhood Workshop 6"
-    link: "https://igc.psu.edu/os/events/Neighborhood6/"
-    place: "Penn State"
-    date: "2024-04-29"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2024-05-07
+  event: "Loops' 24"
+  talk_title: ""
+  location: "Florida Atlantic University, Fort Lauderdale, FL, USA"
+  link: "https://indico.cern.ch/event/1203470/contributions/5905001/"
+  slides:
+  video:
+  notes:
 
-  - title: "Cosmology From Home 2023"
-    event: "CfH23"
-    place: "Online"
-    date: "2023-07-04"
-    slides: ""
-    video: "https://www.youtube.com/watch?v=I7_LfYR4mtA"
+- type: contributed
+  date: 2024-04-29
+  event: "6th Neighborhood Workshop"
+  talk_title: ""
+  location: "Penn State, State College, PA, USA"
+  link: "https://igc.psu.edu/os/events/Neighborhood6/"
+  slides:
+  video:
+  notes:
 
-  - title: "APS April Meeting"
-    event: "APS APR23"
-    link: "https://meetings.aps.org/Meeting/APR23/Session/B08.2"
-    place: "Minneapolis, MN"
-    date: "2023-04-15"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2023-07-04
+  event: "Cosmology from Home 2023"
+  talk_title: ""
+  location: "Online"
+  link:
+  slides:
+  video: "https://www.youtube.com/watch?v=I7_LfYR4mtA"
+  notes: "Pre-recorded online talk"
 
-  - title: "APS Mid-Atlantic Section"
-    event: "APS MAS"
-    link: "https://meetings.aps.org/Meeting/MAS22/Session/C03.4"
-    place: "Penn State"
-    date: "2022-12-03"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2023-04-15
+  event: "APS April Meeting"
+  talk_title: ""
+  location: "American Physical Society, Minneapolis, MN, USA"
+  link: "https://meetings.aps.org/Meeting/APR23/Session/B08.2"
+  slides:
+  video:
+  notes:
 
-  - title: "XXII Chilean Symposium of Physics"
-    event: "SOCHIFI 2020"
-    link: "https://xxiisimposiofisica.utem.cl/wp-content/uploads/2020/11/Presentaciones-Posters-XXII-Simposio-SOCHIFI.pdf"
-    place: "UTEM, Santiago, Chile"
-    date: "2020-11-25"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2022-12-03
+  event: "APS Mid-Atlantic Section (APS MAS)"
+  talk_title: ""
+  location: "American Physical Society, University Park, PA, USA"
+  link: "https://meetings.aps.org/Meeting/MAS22/Session/C03.4"
+  slides:
+  video:
+  notes:
 
-  - title: "Cosmosur V"
-    event: "Cosmosur"
-    place: "UV & PUCV, Valparaíso, Chile"
-    date: "2019-10-01"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2020-11-25
+  event: "XXII Chilean Symposium of Physics"
+  talk_title: ""
+  location: "UTEM, Santiago, Chile"
+  link: "https://xxiisimposiofisica.utem.cl/wp-content/uploads/2020/11/Presentaciones-Posters-XXII-Simposio-SOCHIFI.pdf"
+  slides:
+  video:
+  notes:
 
-  - title: "XII Latin American Symposium on High Energy Physics"
-    event: "SILAFAE XII"
-    place: "Lima, Perú"
-    date: "2018-11-01"
-    slides: ""
-    video: ""
+- type: contributed
+  date: 2019-10-15
+  event: "Cosmosur V"
+  talk_title: ""
+  location: "UV & PUCV, Valparaíso, Chile"
+  link:
+  slides:
+  video:
+  notes:
 
+- type: contributed
+  date: 2018-11-15
+  event: "XII Latin American Symposium on High Energy Physics"
+  talk_title: ""
+  location: "Lima, Perú"
+  link:
+  slides:
+  video:
+  notes:
 
-schools:
-  - title: "Loops' 24 Summer School"
-    event: "LQG School"
-    link: "https://indico.cern.ch/event/1100970/"
-    place: "Fort Lauderdale, FL"
-    date: "2024-05-01"
-    slides: ""
-    video: ""
+# --------------- SUMMER SCHOOLS / WORKSHOPS (ATTENDANCE) ---------------
 
-  - title: "Basics of Quantum Gravity"
-    event: "ISQG School"
-    link: "https://indico.cern.ch/event/1279592/"
-    place: "Online"
-    date: "2022-05-01"
-    slides: ""
-    video: ""
+- type: school
+  date: 2024-05-01
+  event: "Loops' 24 Summer School"
+  talk_title:
+  location: "Fort Lauderdale, FL, USA"
+  link: "https://indico.cern.ch/event/1100970/"
+  slides:
+  video:
+  notes: "Attendance"
 
-  - title: "Loops' 22 Summer School"
-    event: "LQG School"
-    link: "https://indico.cern.ch/event/1100970/"
-    place: "Aix-Marseille & ENS Lyon, France"
-    date: "2022-07-01"
-    slides: ""
-    video: ""
+- type: school
+  date: 2022-05-01
+  event: "Basics of Quantum Gravity"
+  talk_title:
+  location: "ISQG (online)"
+  link: "https://indico.cern.ch/event/1279592/"
+  slides:
+  video:
+  notes: "Attendance"
 
-  - title: "Loop Quantum Gravity Summer School"
-    event: "LQG Online School"
-    link: "https://sites.google.com/view/lqgonlinesummerschool/"
-    place: "Online"
-    date: "2021-06-01"
-    slides: ""
-    video: ""
+- type: school
+  date: 2022-07-01
+  event: "Loops' 22 Summer School"
+  talk_title:
+  location: "Aix-Marseille & ENS Lyon, France"
+  link: "https://indico.cern.ch/event/1100970/"
+  slides:
+  video:
+  notes: "Attendance"
 
-  - title: "Vienna Summer School on Gravitational Quantum Physics"
-    event: "Vienna School"
-    place: "Online"
-    date: "2020-09-01"
-    slides: ""
-    video: ""
+- type: school
+  date: 2021-06-01
+  event: "Loop Quantum Gravity Summer School"
+  talk_title:
+  location: "Online"
+  link: "https://sites.google.com/view/lqgonlinesummerschool/"
+  slides:
+  video:
+  notes: "Attendance"
 
-  - title: "CosmoAndes 2018"
-    event: "CosmoAndes"
-    place: "PUC Chile"
-    date: "2018-01-01"
-    slides: ""
-    video: ""
+- type: school
+  date: 2020-09-01
+  event: "Vienna summer school on gravitational quantum physics"
+  talk_title:
+  location: "Online"
+  link:
+  slides:
+  video:
+  notes: "Attendance"
+
+- type: school
+  date: 2018-01-01
+  event: "CosmoAndes 2018"
+  talk_title:
+  location: "Pontificia Universidad Católica de Chile"
+  link:
+  slides:
+  video:
+  notes: "Attendance"

@@ -4,73 +4,33 @@ title: Publications
 permalink: /research/publications/
 ---
 
-<h1>Publications</h1>
+# Publications
 
-<p>
-  This list is generated automatically from a BibTeX file.
-</p>
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
 
-<div id="publications">
-  Loading publications…
-</div>
+{% for y in years %}
+### {{ y }}
 
-<!-- 1) BibTeX parser library -->
-<script src="https://cdn.jsdelivr.net/npm/bibtex-parse-js@1.0.2/lib/bibtex-parse.js"></script>
-
-<script>
-  // 2) Helper: format one BibTeX entry into HTML
-  function formatEntry(entry) {
-    const fields = entry.entryTags || {};
-
-    const authors = fields.author || "";
-    const title   = fields.title || "";
-    const journal = fields.journal || "";
-    const year    = fields.year || "";
-    const doi     = fields.doi || "";
-    const eprint  = fields.eprint || "";
-
-    let line = "";
-
-    if (authors) line += authors + ". ";
-    if (title)   line += "<strong>" + title + "</strong>. ";
-    if (journal) line += "<em>" + journal + "</em>. ";
-    if (year)    line += " (" + year + ").";
-
-    if (doi) {
-      line += ' <a href="https://doi.org/' + doi + '" target="_blank" rel="noopener noreferrer">DOI</a>';
-    } else if (eprint) {
-      line += ' <a href="https://arxiv.org/abs/' + eprint + '" target="_blank" rel="noopener noreferrer">arXiv</a>';
-    }
-
-    return "<li>" + line + "</li>";
-  }
-
-  // 3) Load the BibTeX file (path relative to site root!)
-  fetch("/assets/bib/my-pubs.bib")
-    .then(response => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.text();
-    })
-    .then(text => {
-      const entries = bibtexParse.toJSON(text);
-
-      // Optional: sort by year (desc)
-      entries.sort((a, b) => {
-        const ya = parseInt(a.entryTags.year || "0", 10);
-        const yb = parseInt(b.entryTags.year || "0", 10);
-        return yb - ya;
-      });
-
-      const htmlList =
-        "<ul>" + entries.map(formatEntry).join("\n") + "</ul>";
-
-      document.getElementById("publications").innerHTML = htmlList;
-    })
-    .catch(error => {
-      console.error("Error loading BibTeX:", error);
-      document.getElementById("publications").innerHTML =
-        "Could not load publications.";
-    });
-</script>
+<ul>
+  {% for p in pubs %}
+    {% if p.year == y %}
+    <li>
+      {% if p.authors %}{{ p.authors }}.{% endif %}
+      {% if p.title %} <strong>{{ p.title }}</strong>.{% endif %}
+      {% if p.journal %}
+        <em>{{ p.journal }}</em>
+        {% if p.volume %} {{ p.volume }}{% endif %}
+        {% if p.pages %}, {{ p.pages }}{% endif %}.
+      {% endif %}
+      {% if p.arxiv %}
+        <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>.
+      {% endif %}
+      {% if p.doi %}
+        <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>.
+      {% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}

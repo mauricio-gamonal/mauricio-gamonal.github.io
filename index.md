@@ -33,5 +33,5 @@
 
   <!-- Collaborators -->
   <div class="collab-card">
-   I’m always happy to discuss the physics of the very early Universe, foundational and phenomenological aspects of quantum gravity, philosophy of science, the creative process, current affairs of the world any other interesting facet of life itself. 
+   I’m always happy to discuss the early Universe, foundational and phenomenological aspects of quantum gravity, and related questions in philosophy of science—and, more broadly, the creative process, current affairs, and other interesting facets of life. 
   </div>

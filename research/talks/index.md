@@ -1,47 +1,99 @@
 ---
 layout: default
 title: Talks
+permalink: /Docs/Talks/
 ---
 
-# Invited Talks
+# Talks & presentations
+
+{% assign talks = site.data.talks | sort: "date" | reverse %}
+{% assign invited    = talks | where: "type", "invited" %}
+{% assign contributed = talks | where: "type", "contributed" %}
+{% assign schools    = talks | where: "type", "school" %}
+
+## Invited talks
 
 <ul>
-{% for talk in site.data.talks.invited %}
+{% for t in invited %}
   <li>
-    {% if talk.link %}
-      <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+    <strong>{{ t.date | date: "%B %-d, %Y" }}</strong> — 
+    {% if t.link %}
+      <a href="{{ t.link }}" target="_blank" rel="noopener noreferrer">{{ t.event }}</a>
     {% else %}
-      {{ talk.title }}
+      {{ t.event }}
     {% endif %}
-    — {{ talk.location }} ({{ talk.date | date: "%B %Y" }})
+    {% if t.location %}
+      , {{ t.location }}
+    {% endif %}
+    {% if t.talk_title %}
+      <br><em>"{{ t.talk_title }}"</em>
+    {% endif %}
+    {% if t.slides or t.video %}
+      <br>
+      {% if t.slides %}
+        <a href="{{ t.slides }}" target="_blank" rel="noopener noreferrer">slides</a>
+      {% endif %}
+      {% if t.slides and t.video %}
+        &nbsp;·&nbsp;
+      {% endif %}
+      {% if t.video %}
+        <a href="{{ t.video }}" target="_blank" rel="noopener noreferrer">video</a>
+      {% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
 
-# Contributed Talks
+## Contributed talks (selected)
+
 <ul>
-{% for talk in site.data.talks.contributed %}
+{% for t in contributed %}
   <li>
-    {% if talk.link %}
-      <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+    <strong>{{ t.date | date: "%B %-d, %Y" }}</strong> — 
+    {% if t.link %}
+      <a href="{{ t.link }}" target="_blank" rel="noopener noreferrer">{{ t.event }}</a>
     {% else %}
-      {{ talk.title }}
+      {{ t.event }}
     {% endif %}
-    — {{ talk.location }} ({{ talk.date | date: "%B %Y" }})
+    {% if t.location %}
+      , {{ t.location }}
+    {% endif %}
+    {% if t.talk_title %}
+      <br><em>"{{ t.talk_title }}"</em>
+    {% endif %}
+    {% if t.slides or t.video %}
+      <br>
+      {% if t.slides %}
+        <a href="{{ t.slides }}" target="_blank" rel="noopener noreferrer">slides</a>
+      {% endif %}
+      {% if t.slides and t.video %}
+        &nbsp;·&nbsp;
+      {% endif %}
+      {% if t.video %}
+        <a href="{{ t.video }}" target="_blank" rel="noopener noreferrer">video</a>
+      {% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
 
-# Summer Schools & Workshops
+## Summer schools & workshops (attendance)
+
 <ul>
-{% for talk in site.data.talks.schools %}
+{% for t in schools %}
   <li>
-    {% if talk.link %}
-      <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+    <strong>{{ t.date | date: "%B %Y" }}</strong> — 
+    {% if t.link %}
+      <a href="{{ t.link }}" target="_blank" rel="noopener noreferrer">{{ t.event }}</a>
     {% else %}
-      {{ talk.title }}
+      {{ t.event }}
     {% endif %}
-    — {{ talk.location }} ({{ talk.date | date: "%B %Y" }})
+    {% if t.location %}
+      , {{ t.location }}
+    {% endif %}
+    {% if t.notes %}
+      <br><em>{{ t.notes }}</em>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>

@@ -1,0 +1,29 @@
+- year: 2025
+  type: journal
+  title: "Precision predictions of Starobinsky inflation with self-consistent Weyl-squared corrections"
+  authors: "M. Gamonal, E. Bianchi"
+  journal: "Phys. Rev. D"
+  volume: "XXX"
+  pages: "123456"
+  arxiv: "2501.01234"
+  doi: "10.1103/PhysRevD.XXX"
+
+- year: 2024
+  type: journal
+  title: "Causal Lorentzian spinfoam vertex via Toller functions"
+  authors: "M. Gamonal, E. Bianchi"
+  journal: "JHEP"
+  volume: "YYY"
+  pages: "098"
+  arxiv: "2407.01234"
+  doi: "10.1007/JHEPYY(2024)098"
+
+- year: 2022
+  type: journal
+  title: "Primordial cosmology in R+R²−W² gravity"
+  authors: "M. Gamonal, J. Alfaro"
+  journal: "JCAP"
+  volume: "ZZZ"
+  pages: "001"
+  arxiv: "2203.01234"
+  doi: "10.1088/1475-7516/2022/03/001"

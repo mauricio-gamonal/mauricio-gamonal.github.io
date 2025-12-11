@@ -1,13 +1,148 @@
-- title: "Primordial power spectrum at N3LO"
-  event: "APS April Meeting 2025"
-  location: "Sacramento, CA"
-  date: "2025-04-12"
-  link: "https://example.com/slides.pdf"
-  type: "Invited"
+invited:
+  - title: International Loop Quantum Gravity Seminar
+    event: ILQGS
+    location: Online
+    date: 2026-02-03
+    link: https://relativity.phys.lsu.edu/ilqgs/schedulesp26.html
 
-- title: "Causal spinfoams and Toller functions"
-  event: "ILQGS seminar"
-  location: "Online"
-  date: "2025-03-05"
-  link: "https://example.com/video"
-  type: "Seminar"
+  - title: Primordial Universe and Gravitation Seminar
+    event: IGC Seminar
+    location: IGC, Penn State
+    date: 2024-12-06
+    link: https://www.instagram.com/p/DDPQVJPxZmG/
+
+  - title: International Loop Quantum Gravity Seminar
+    event: ILQGS
+    location: Online
+    date: 2024-09-10
+    link: https://relativity.phys.lsu.edu/ilqgs/schedulefa24.html
+
+  - title: GravUC Seminar
+    event: GravUC Seminar
+    location: Pontificia Universidad Católica de Chile
+    date: 2023-12-15
+    link: https://www.instagram.com/p/C00fz-ptMIk/?img_index=1
+
+  - title: Primordial Universe and Gravitation Seminar
+    event: IGC Seminar
+    location: IGC, Penn State
+    date: 2023-10-27
+
+  - title: Primordial Universe and Gravitation Seminar
+    event: IGC Seminar
+    location: IGC, Penn State
+    date: 2022-11-11
+
+  - title: La Parte y el Todo VIII
+    event: La Parte y el Todo VIII
+    location: Afunalhue, Chile (online)
+    date: 2021-01-04
+    link: https://www.youtube.com/watch?v=qbFACAyRwEc
+
+  - title: PizzaSeminar 2020
+    event: PizzaSeminar
+    location: Online (Spanish)
+    date: 2020-06-17
+    link: https://www.youtube.com/watch?v=XcVIMQKbnTA
+
+
+contributed:
+  - title: Quantum Gravity 2025
+    event: QG25
+    location: Penn State, PA, USA
+    date: 2025-07-24
+    link: https://sites.psu.edu/2024quantumgravity/program/
+
+  - title: 7th Neighborhood Workshop
+    event: Neighborhood Workshop 7
+    location: Penn State, PA, USA
+    date: 2025-04-03
+    link: https://igc.psu.edu/os/events/Neighborhood7/
+
+  - title: APS Global Physics Summit
+    event: APS Summit
+    location: Anaheim, CA, USA
+    date: 2025-03-18
+    link: https://schedule.aps.org/smt/2025/events/APR-H18/3
+
+  - title: Loops '24
+    event: Loops 2024
+    location: Fort Lauderdale, FL, USA
+    date: 2024-05-07
+    link: https://indico.cern.ch/event/1203470/contributions/5905001/
+
+  - title: 6th Neighborhood Workshop
+    event: Neighborhood Workshop 6
+    location: Penn State, PA, USA
+    date: 2024-04-29
+    link: https://igc.psu.edu/os/events/Neighborhood6/
+
+  - title: Cosmology from Home 2023
+    event: CfH 2023
+    location: Online
+    date: 2023-07-04
+    link: https://www.youtube.com/watch?v=I7_LfYR4mtA
+
+  - title: APS April Meeting 2023
+    event: APS April Meeting
+    location: Minneapolis, MN, USA
+    date: 2023-04-15
+    link: https://meetings.aps.org/Meeting/APR23/Session/B08.2
+
+  - title: APS Mid-Atlantic Section Meeting (APS MAS)
+    event: APS MAS
+    location: University Park, PA, USA
+    date: 2022-12-03
+    link: https://meetings.aps.org/Meeting/MAS22/Session/C03.4
+
+  - title: XXII Chilean Symposium of Physics
+    event: SOCHIFI 2020
+    location: UTEM, Santiago, Chile
+    date: 2020-11-25
+    link: https://xxiisimposiofisica.utem.cl/wp-content/uploads/2020/11/Presentaciones-Posters-XXII-Simposio-SOCHIFI.pdf
+
+  - title: Cosmosur V
+    event: Cosmosur V
+    location: UV & PUCV, Valparaíso, Chile
+    date: 2019-10-01
+
+  - title: XII Latin American Symposium on High Energy Physics
+    event: SILAFAE 2018
+    location: Lima, Perú
+    date: 2018-11-01
+
+
+schools:
+  - title: Loops '24 Summer School
+    event: Loops Summer School 2024
+    location: Fort Lauderdale, FL, USA
+    date: 2024-05-01
+    link: https://indico.cern.ch/event/1100970/
+
+  - title: Basics of Quantum Gravity
+    event: ISQG School
+    location: Online
+    date: 2022-05-01
+    link: https://indico.cern.ch/event/1279592/
+
+  - title: Loops '22 Summer School
+    event: Loops Summer School 2022
+    location: Aix-Marseille & ENS Lyon, France
+    date: 2022-07-01
+    link: https://indico.cern.ch/event/1100970/
+
+  - title: Loop Quantum Gravity Summer School
+    event: LQG Summer School
+    location: Online
+    date: 2021-06-01
+    link: https://sites.google.com/view/lqgonlinesummerschool/
+
+  - title: Vienna Summer School on Gravitational Quantum Physics
+    event: VQG Summer School
+    location: Online
+    date: 2020-09-01
+
+  - title: CosmoAndes 2018
+    event: CosmoAndes
+    location: Pontificia Universidad Católica de Chile
+    date: 2018-01-01

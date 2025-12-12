@@ -219,7 +219,7 @@ nav {
 	z-index: 99;
 }
 
-@media print, screen and (max-width: 1000px) {
+@media print, screen and (max-width: 100%) {
 	.container {
         padding: 0 15px;
    }
@@ -476,7 +476,7 @@ ul li::marker {
 
 
 /* Optional: make it stack on small screens */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 100%) {
   .hero-card {
     flex-direction: column;
     text-align: center;

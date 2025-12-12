@@ -7,7 +7,7 @@ permalink: /blog/
 # Blog
 
 Welcome to my (occasional) notes on quantum gravity, cosmology,
-teaching, and academic life.
+teaching, academic life, among many other topics.
 
 <ul class="post-list">
 {% for post in site.posts %}
@@ -20,7 +20,7 @@ teaching, and academic life.
       {% endif %}
     </span>
     {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      <p>{{ post.excerpt | strip_html | truncate: 210 }}</p>
     {% endif %}
   </li>
 {% endfor %}

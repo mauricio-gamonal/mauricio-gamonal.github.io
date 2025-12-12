@@ -14,7 +14,7 @@ teaching, and academic life.
   <li>
     <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br>
     <span class="post-meta">
-      {{ post.date | date: "%B %-d, %Y" }}
+      <strong> {{ post.date | date: "%B %-d, %Y" }} </strong>
       {% if post.tags and post.tags != empty %}
         • {{ post.tags | join: ", " }}
       {% endif %}

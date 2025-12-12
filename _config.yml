@@ -5,11 +5,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-scholar
   - jemoji
   - jekyll-include-cache
 title: Mauricio Gamonal
 description: Personal Website
+url: https://mauricio-gamonal.github.io
 # Site Author
 author:
   name             : "Mauricio Gamonal"
@@ -22,7 +22,7 @@ author:
   codepen          :
   dribbble         :
   flickr           : "mauro_gsm"
-  facebook         : 
+  facebook         : "Mauricio.Gamonal.SM"
   foursquare       :
   github           : "mauricio-gamonal"
   google_plus      :
@@ -48,14 +48,6 @@ author:
   mastodon         :
     handle         : 
     instance       : 
-
-scholar:
-  style: aps
-  locale: en
-  sort_by: year
-  order: descending
-  source: ./_bibliography
-  bibliography: my-pubs.bib
   
 comments:
   giscus:

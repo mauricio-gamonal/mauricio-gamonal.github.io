@@ -13,7 +13,7 @@
 - type: invited
   date: 2024-12-06
   event: "Primordial Universe and Gravitation Seminar"
-  talk_title: 
+  talk_title: "Searching for quantum gravity in the sky"
   location: "IGC, Penn State"
   link: "https://www.instagram.com/p/DDPQVJPxZmG/"
   slides:
@@ -33,7 +33,7 @@
 - type: invited
   date: 2023-12-15
   event: "GravUC Seminar"
-  talk_title: ""
+  talk_title: "On the role of primordial cosmology in the phenomenology of quantum gravity"
   location: "Pontificia Universidad Católica de Chile"
   link: "https://www.instagram.com/p/C00fz-ptMIk/?img_index=1"
   slides:
@@ -63,7 +63,7 @@
 - type: invited
   date: 2021-01-04
   event: "La Parte y el Todo VIII"
-  talk_title: ""
+  talk_title: "Slow-roll inflation in f(R,T) gravity"
   location: "Afunalhue, Chile (online)"
   link: "https://www.youtube.com/watch?v=qbFACAyRwEc"
   slides:
@@ -73,7 +73,7 @@
 - type: invited
   date: 2020-06-17
   event: "PizzaSeminar 2020"
-  talk_title: ""
+  talk_title: "Ondas Gravitacionales: Ecos del cosmos y una llave para observar el principio del Universo"
   location: "Online"
   link: "https://www.youtube.com/watch?v=XcVIMQKbnTA"
   slides:
@@ -85,7 +85,7 @@
 - type: contributed
   date: 2025-07-24
   event: "Quantum Gravity 2025"
-  talk_title: ""
+  talk_title: "Tracing cosmic history with an eﬀective theory of quantum geometry"
   location: "Penn State, State College, PA, USA"
   link: "https://sites.psu.edu/2024quantumgravity/program/"
   slides:
@@ -95,7 +95,7 @@
 - type: contributed
   date: 2025-04-03
   event: "7th Neighborhood Workshop"
-  talk_title: ""
+  talk_title: "Squeezed vacua in effective theories of inflation"
   location: "Penn State, State College, PA, USA"
   link: "https://igc.psu.edu/os/events/Neighborhood7/"
   slides:
@@ -105,7 +105,7 @@
 - type: contributed
   date: 2025-03-18
   event: "APS Global Physics Summit"
-  talk_title: ""
+  talk_title: "Probing quantum gravity using precision primordial cosmology"
   location: "Anaheim, CA, USA"
   link: "https://schedule.aps.org/smt/2025/events/APR-H18/3"
   slides:
@@ -115,7 +115,7 @@
 - type: contributed
   date: 2024-05-07
   event: "Loops' 24"
-  talk_title: ""
+  talk_title: "Precision cosmology as a probe of quantum gravity"
   location: "Florida Atlantic University, Fort Lauderdale, FL, USA"
   link: "https://indico.cern.ch/event/1203470/contributions/5905001/"
   slides:
@@ -125,7 +125,7 @@
 - type: contributed
   date: 2024-04-29
   event: "6th Neighborhood Workshop"
-  talk_title: ""
+  talk_title: "Power spectrum at N3LO for effective theories of inflation"
   location: "Penn State, State College, PA, USA"
   link: "https://igc.psu.edu/os/events/Neighborhood6/"
   slides:
@@ -135,7 +135,7 @@
 - type: contributed
   date: 2023-07-04
   event: "Cosmology from Home 2023"
-  talk_title: ""
+  talk_title: "Primordial Fluctuations from Quadratic Curvature Terms"
   location: "Online"
   link:
   slides:
@@ -145,7 +145,7 @@
 - type: contributed
   date: 2023-04-15
   event: "APS April Meeting"
-  talk_title: ""
+  talk_title: "Producing primordial fluctuations with quadratic curvature terms"
   location: "American Physical Society, Minneapolis, MN, USA"
   link: "https://meetings.aps.org/Meeting/APR23/Session/B08.2"
   slides:
@@ -155,7 +155,7 @@
 - type: contributed
   date: 2022-12-03
   event: "APS Mid-Atlantic Section (APS MAS)"
-  talk_title: ""
+  talk_title: "Primordial cosmology with quadratic curvature terms"
   location: "American Physical Society, University Park, PA, USA"
   link: "https://meetings.aps.org/Meeting/MAS22/Session/C03.4"
   slides:
@@ -165,9 +165,9 @@
 - type: contributed
   date: 2020-11-25
   event: "XXII Chilean Symposium of Physics"
-  talk_title: ""
+  talk_title: 
   location: "UTEM, Santiago, Chile"
-  link: "https://xxiisimposiofisica.utem.cl/wp-content/uploads/2020/11/Presentaciones-Posters-XXII-Simposio-SOCHIFI.pdf"
+  link: 
   slides:
   video:
   notes:
@@ -175,7 +175,7 @@
 - type: contributed
   date: 2019-10-15
   event: "Cosmosur V"
-  talk_title: ""
+  talk_title: 
   location: "UV & PUCV, Valparaíso, Chile"
   link:
   slides:
@@ -185,7 +185,7 @@
 - type: contributed
   date: 2018-11-15
   event: "XII Latin American Symposium on High Energy Physics"
-  talk_title: ""
+  talk_title: 
   location: "Lima, Perú"
   link:
   slides:

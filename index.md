@@ -1,5 +1,34 @@
 <link rel="shortcut icon" type="image/x-icon" href="./Uroboro.ico">
 
+<style>
+.hero-card {
+  position: relative;
+  overflow: hidden;   /* keeps background inside rounded corners */
+}
+
+/* background layer only for the homepage */
+.hero-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("/Tololo-Chile-final.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.6;
+  z-index: 0;
+}
+
+/* keep text and avatar above background */
+.hero-card > * {
+  position: relative;
+  z-index: 1;
+}
+</style>
+
+
 <div class="hero-card">
 
   <img src="/Perfil-PennState-circle.png"
@@ -22,10 +51,10 @@
 
   <!-- News -->
 <div class="news-card">
-  <h2>News</h2>
+  <h2>Updates</h2>
 
   <ul class="news-list">
-  {% for item in site.data.news %}
+  {% for item in site.data.updates %}
     <li style="margin-bottom: 12px;">
       <strong>{{ item.date }}</strong> — {{ item.title }}
       {% if item.kind == "link" or item.kind == "paper" %}

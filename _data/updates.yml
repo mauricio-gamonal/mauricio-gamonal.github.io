@@ -37,6 +37,10 @@
 
 - date: 2025-03
   title: "APS talk + DS Excellence Prize"
+  links:
+    - label: "slides"
+      url: "/Docs/files/APS-2025-v2.pdf"   # file stored in your repo
+  image: "/Docs/images/APS.jpeg"
  # kind: "assets"
   #assets:
    # - label: "Slides (PDF)"

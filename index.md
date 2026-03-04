@@ -74,7 +74,7 @@
 
   {% if item.youtube_id %}
     <div style="margin-top:8px;">
-      <iframe width="100%" height="220"
+      <iframe width="100%" height="300"
         src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}"
         frameborder="0"
         allowfullscreen>

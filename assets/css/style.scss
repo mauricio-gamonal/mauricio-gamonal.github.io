@@ -128,7 +128,7 @@ nav {
 }
 
 .container {
-    max-width: 1260px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -218,7 +218,7 @@ nav {
 	z-index: 9999;
 }
 
-@media print, screen and (max-width: 900px) {
+@media print, screen and (max-width: 1000px) {
 	.container {
         padding: 0 15px;
    }
@@ -227,6 +227,8 @@ nav {
 	}
 	section {
 		margin-top:40px
+        max-width: none !important;
+        width: 100% !important;
 	}
 	nav {
 		display:block

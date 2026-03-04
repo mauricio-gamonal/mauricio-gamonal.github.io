@@ -55,46 +55,33 @@
 
   <ul class="news-list">
   {% for item in site.data.updates %}
-    <li style="margin-bottom: 12px;">
-      <strong>{{ item.date }}</strong> — {{ item.title }}
-      {% if item.kind == "link" or item.kind == "paper" %}
-        {% if item.url %}
-          &nbsp;<a href="{{ item.url }}" target="_blank" rel="noopener">(arXiv)</a>
-        {% endif %}
-        {% if item.extra_links %}
-          &nbsp;
-          {% for l in item.extra_links %}
-            <a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>
-          {% endfor %}
-        {% endif %}
-      {% elsif item.kind == "assets" %}
-        {% if item.assets %}
-          <div style="margin-top:6px;">
-            {% for a in item.assets %}
-              <a href="{{ a.url }}">[{{ a.label }}]</a>
-            {% endfor %}
-          </div>
-        {% endif %}
-      {% if item.image %}
+    <li style="margin-bottom: 16px;">
+  <strong>{{ item.date }}</strong> — {{ item.title }}
+
+  {% if item.links %}
+    &nbsp;
+    {% for l in item.links %}
+      <a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>
+    {% endfor %}
+  {% endif %}
+
+  {% if item.image %}
     <div style="margin-top:8px;">
       <img src="{{ item.image }}" 
            style="max-width:100%; border-radius:8px;">
     </div>
   {% endif %}
-      {% elsif item.kind == "youtube" %}
-        {% if item.youtube_id %}
-          <div style="margin-top:8px;">
-            <iframe width="100%" height="220"
-              src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}"
-              title="YouTube video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
-          </div>
-        {% endif %}
-      {% endif %}
-    </li>
+
+  {% if item.youtube_id %}
+    <div style="margin-top:8px;">
+      <iframe width="100%" height="220"
+        src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+  {% endif %}
+</li>
   {% endfor %}
   </ul>
 </div>

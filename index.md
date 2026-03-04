@@ -10,7 +10,7 @@
     <h2 style="text-align:center; margin-top:0;">Mauricio Gamonal</h2>
     <ul style="list-style:none; padding-left:0; line-height:1.5;">
     <li><strong>Theoretical Physicist</strong></li>
-    <li>PhD Candidate, Penn State (Advisor: <a href="https://ebianchi.org" target="_blank">Eugenio Bianchi</a>)</li>
+    <li>PhD in Physics, Penn State (Advisor: <a href="https://ebianchi.org" target="_blank">Eugenio Bianchi</a>)</li>
     <li>MSc in Physics, PUC Chile (Advisor: <a href="https://www.fis.uc.cl/~academiasenior/web/JA/JA.html" target="_blank">Jorge Alfaro</a>)</li>
     <div style="margin-top:14px;"></div>
     <li> My research lies at the interface of quantum gravity and cosmology. I aim to explore how classical spacetime emerges from quantum geometry and how this process can leave observable imprints in the primordial Universe. </li>
@@ -22,7 +22,7 @@
 
   <!-- News -->
   <div class="news-card">
-    <h2>News</h2>
+    <h2>Updates</h2>
     <ul class="news-list">
       <li>Feb 2026: Invited to give an ILQGS seminar.</li>
       <li>Dec 2025: [TBA] Paper on causal spinfoam vertex.</li>

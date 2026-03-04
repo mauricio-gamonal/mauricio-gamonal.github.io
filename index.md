@@ -59,7 +59,7 @@
       <strong>{{ item.date }}</strong> — {{ item.title }}
       {% if item.kind == "link" or item.kind == "paper" %}
         {% if item.url %}
-          &nbsp;<a href="{{ item.url }}" target="_blank" rel="noopener">(link)</a>
+          &nbsp;<a href="{{ item.url }}" target="_blank" rel="noopener">(arXiv)</a>
         {% endif %}
         {% if item.extra_links %}
           &nbsp;

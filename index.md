@@ -21,15 +21,48 @@
 
 
   <!-- News -->
-  <div class="news-card">
-    <h2>Updates</h2>
-    <ul class="news-list">
-      <li>Feb 2026: Invited to give an ILQGS seminar.</li>
-      <li>Dec 2025: [TBA] Paper on causal spinfoam vertex.</li>
-      <li>Jun 2025: [arXiv] Paper on the EFT of gravity.</li>
-      <li>Mar 2025: Talked at APS. Awarded the DS Excellence in Physics prize.</li>
-    </ul>
-  </div>
+<div class="news-card">
+  <h2>News</h2>
+
+  <ul class="news-list">
+  {% for item in site.data.news %}
+    <li style="margin-bottom: 12px;">
+      <strong>{{ item.date }}</strong> — {{ item.title }}
+      {% if item.kind == "link" or item.kind == "paper" %}
+        {% if item.url %}
+          &nbsp;<a href="{{ item.url }}" target="_blank" rel="noopener">(link)</a>
+        {% endif %}
+        {% if item.extra_links %}
+          &nbsp;
+          {% for l in item.extra_links %}
+            <a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>
+          {% endfor %}
+        {% endif %}
+      {% elsif item.kind == "assets" %}
+        {% if item.assets %}
+          <div style="margin-top:6px;">
+            {% for a in item.assets %}
+              <a href="{{ a.url }}">[{{ a.label }}]</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% elsif item.kind == "youtube" %}
+        {% if item.youtube_id %}
+          <div style="margin-top:8px;">
+            <iframe width="100%" height="220"
+              src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}"
+              title="YouTube video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        {% endif %}
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</div>
 
   <!-- Collaborators -->
   <div class="collab-card">

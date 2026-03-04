@@ -355,8 +355,12 @@ ul li::marker {
 }
 
 .hero-text {
-background-image: url("/Tololo-Chile-final.jpg");
   text-align: left;
+  background-image: url("/Tololo-Chile-final.jpg");
+  background-size: contain;        /* show full image without cropping */
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 700px; 
 }
 
 .hero-name {

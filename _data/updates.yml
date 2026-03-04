@@ -1,10 +1,14 @@
 - date: 2026-02
   title: "Passed doctoral defense!"
+  kind: "assets"
+  assets:
+    - label: "slides"
+      url: "/Docs/files/defense-slides.pdf"   # file stored in your repo
   #kind: "link"
   #url: "https://relativity.phys.lsu.edu/ilqgs/"
 
 - date: 2026-02
-  title: "Invited talk (ILQGS): Toller matrices and the causal spinfoam vertex"
+  title: "ILQGS: Toller matrices and the causal spinfoam vertex"
   kind: "youtube"
   youtube_id: "cBfwTPnuI9Q"   # only the ID, not the full URL
   extra_links:
@@ -14,7 +18,7 @@
 - date: 2026-01
   title: "Pre-print: Causal spinfoam vertex"
   kind: "paper"
-  url: "https://arxiv.org/abs/2601.23162"
+  #url: "https://arxiv.org/abs/2601.23162"
   extra_links:
     - label: "slides"
       url: "https://arxiv.org/pdf/2601.23162.pdf"
@@ -22,7 +26,7 @@
 - date: 2025-06
   title: "PRD Article: Predictions from the EFT of a quantum spacetime"
   kind: "paper"
-  url: "https://arxiv.org/abs/2506.10081"
+  #url: "https://arxiv.org/abs/2506.10081"
   extra_links:
     - label: "PDF"
       url: "https://arxiv.org/pdf/2506.10081.pdf"
@@ -41,7 +45,7 @@
 - date: 2024-10
   title: "PRD article: squeezed vacua in primordial cosmology"
   kind: "paper"
-  url: "https://arxiv.org/abs/2410.11812"
+  #url: "https://arxiv.org/abs/2410.11812"
   extra_links:
     - label: "PDF"
       url: "https://arxiv.org/pdf/2410.11812.pdf"
@@ -55,7 +59,7 @@
 - date: 2024-05
   title: "PRD article: Precision calculations for inflation"
   kind: "paper"
-  url: "https://arxiv.org/abs/2405.03157"
+  #url: "https://arxiv.org/abs/2405.03157"
   extra_links:
     - label: "PDF"
       url: "https://arxiv.org/pdf/2405.03157.pdf"

@@ -1,10 +1,9 @@
 - date: 2026-02
   title: "Passed doctoral defense!"
-  kind: "papers"
-  extra_links:
+  links:
     - label: "slides"
       url: "/Docs/files/defense-slides.pdf"   # file stored in your repo
-  image: "/Docs/images/defense1.jpeg"
+  image: "/Docs/images/defense2.jpeg"
   #kind: "link"
   #url: "https://relativity.phys.lsu.edu/ilqgs/"
 
@@ -12,22 +11,24 @@
   title: "ILQGS: Toller matrices and the causal spinfoam vertex"
   kind: "youtube"
   youtube_id: "cBfwTPnuI9Q"   # only the ID, not the full URL
-  extra_links:
+  links:
     - label: "slides"
       url: "https://relativity.phys.lsu.edu/ilqgs/gamonal020326.pdf"
       
 - date: 2026-01
   title: "Pre-print: Causal spinfoam vertex"
-  kind: "paper"
-  url: "https://arxiv.org/abs/2601.23162"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2601.23162"
   #extra_links:
    # - label: "PDF"
     #  url: "https://arxiv.org/pdf/2601.23162.pdf"
       
 - date: 2025-06
-  title: "PRD Article: Predictions from the EFT of a quantum spacetime"
-  kind: "paper"
-  url: "https://arxiv.org/abs/2506.10081"
+  title: "PRD article: predictions from the EFT of a quantum spacetime"
+  links: 
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2506.10081"
  # extra_links:
   #  - label: "PDF"
    #   url: "https://arxiv.org/pdf/2506.10081.pdf"
@@ -45,23 +46,24 @@
      
 - date: 2024-10
   title: "PRD article: squeezed vacua in primordial cosmology"
-  kind: "paper"
-  url: "https://arxiv.org/abs/2410.11812"
+  links: 
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2410.11812"
   #extra_links:
    # - label: "PDF"
     #  url: "https://arxiv.org/pdf/2410.11812.pdf"
       
 - date: 2024-05
   title: "Talk at Loops'24: precision cosmology and quantum gravity"
-  kind: "assets"
-  extra_links:
+  links:
     - label: "slides"
       url: "https://indico.global/event/1305/contributions/27380/attachments/13864/21156/MauricioGamonal-Loops24-Parallel.pdf"
       
 - date: 2024-05
-  title: "PRD article: Precision calculations for inflation"
-  kind: "paper"
-  url: "https://arxiv.org/abs/2405.03157"
+  title: "PRD article: precision calculations for inflation"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.03157"
   #extra_links:
    # - label: "PDF"
     #  url: "https://arxiv.org/pdf/2405.03157.pdf"

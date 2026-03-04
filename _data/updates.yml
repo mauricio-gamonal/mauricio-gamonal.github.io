@@ -4,6 +4,7 @@
   extra_links:
     - label: "slides"
       url: "/Docs/files/defense-slides.pdf"   # file stored in your repo
+  image: "/Docs/images/defense1.jpeg"
   #kind: "link"
   #url: "https://relativity.phys.lsu.edu/ilqgs/"
 

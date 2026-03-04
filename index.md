@@ -75,6 +75,12 @@
             {% endfor %}
           </div>
         {% endif %}
+      {% if item.image %}
+    <div style="margin-top:8px;">
+      <img src="{{ item.image }}" 
+           style="max-width:100%; border-radius:8px;">
+    </div>
+  {% endif %}
       {% elsif item.kind == "youtube" %}
         {% if item.youtube_id %}
           <div style="margin-top:8px;">

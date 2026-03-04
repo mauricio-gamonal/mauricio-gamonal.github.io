@@ -1,0 +1,28 @@
+- date: 2026-02
+  title: "Invited to give an ILQGS seminar"
+  kind: "link"
+  url: "https://relativity.phys.lsu.edu/ilqgs/"
+
+- date: 2025-12
+  title: "Talk: Causal spinfoam vertex (recording)"
+  kind: "youtube"
+  youtube_id: "cBfwTPnuI9Q"   # only the ID, not the full URL
+
+- date: 2025-06
+  title: "Paper: EFT of gravity (arXiv)"
+  kind: "paper"
+  url: "https://arxiv.org/abs/2601.23162"
+  extra_links:
+    - label: "PDF"
+      url: "https://arxiv.org/pdf/2601.23162.pdf"
+    #- label: "Code"
+     # url: "https://github.com/youruser/yourrepo"
+
+- date: 2025-03
+  title: "APS talk + DS Excellence Prize"
+ # kind: "assets"
+  #assets:
+   # - label: "Slides (PDF)"
+    #  url: "/assets/slides/aps2025.pdf"   # file stored in your repo
+    #- label: "Poster"
+     # url: "/assets/images/poster_aps2025.png"

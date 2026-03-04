@@ -227,7 +227,6 @@ nav {
 	}
 	section {
 		margin-top:40px
-        width: 100% !important;
 	}
 	nav {
 		display:block
@@ -477,7 +476,7 @@ ul li::marker {
 
 
 /* Optional: make it stack on small screens */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .hero-card {
     flex-direction: column;
     text-align: center;

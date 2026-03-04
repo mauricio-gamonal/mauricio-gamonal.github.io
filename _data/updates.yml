@@ -1,20 +1,31 @@
 - date: 2026-02
-  title: "Invited to give an ILQGS seminar"
-  kind: "link"
-  url: "https://relativity.phys.lsu.edu/ilqgs/"
+  title: "Passed doctoral defense!"
+  #kind: "link"
+  #url: "https://relativity.phys.lsu.edu/ilqgs/"
 
-- date: 2025-12
-  title: "Talk: Causal spinfoam vertex (recording)"
+- date: 2026-02
+  title: "Invited talk (ILQGS): Toller matrices and the causal spinfoam vertex"
   kind: "youtube"
   youtube_id: "cBfwTPnuI9Q"   # only the ID, not the full URL
-
-- date: 2025-06
-  title: "Paper: EFT of gravity (arXiv)"
+  extra_links:
+    - label: "slides"
+      url: "https://relativity.phys.lsu.edu/ilqgs/gamonal020326.pdf"
+      
+- date: 2026-01
+  title: "Pre-print: Causal spinfoam vertex"
   kind: "paper"
   url: "https://arxiv.org/abs/2601.23162"
   extra_links:
-    - label: "PDF"
+    - label: "slides"
       url: "https://arxiv.org/pdf/2601.23162.pdf"
+      
+- date: 2025-06
+  title: "PRD Article: Predictions from the EFT of a quantum spacetime"
+  kind: "paper"
+  url: "https://arxiv.org/abs/2506.10081"
+  extra_links:
+    - label: "PDF"
+      url: "https://arxiv.org/pdf/2506.10081.pdf"
     #- label: "Code"
      # url: "https://github.com/youruser/yourrepo"
 
@@ -26,3 +37,25 @@
     #  url: "/assets/slides/aps2025.pdf"   # file stored in your repo
     #- label: "Poster"
      # url: "/assets/images/poster_aps2025.png"
+     
+- date: 2024-10
+  title: "PRD article: squeezed vacua in primordial cosmology"
+  kind: "paper"
+  url: "https://arxiv.org/abs/2410.11812"
+  extra_links:
+    - label: "PDF"
+      url: "https://arxiv.org/pdf/2410.11812.pdf"
+      
+- date: 2025-05
+  title: "Talk at Loops'24: precision cosmology and quantum gravity"
+  extra_links:
+    - label: "slides"
+      url: "https://indico.global/event/1305/contributions/27380/attachments/13864/21156/MauricioGamonal-Loops24-Parallel.pdf"
+      
+- date: 2024-05
+  title: "PRD article: Precision calculations for inflation"
+  kind: "paper"
+  url: "https://arxiv.org/abs/2405.03157"
+  extra_links:
+    - label: "PDF"
+      url: "https://arxiv.org/pdf/2405.03157.pdf"

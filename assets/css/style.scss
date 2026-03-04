@@ -211,15 +211,14 @@ nav {
 
 #Menu {
 	text-align: center;
-	position: -webkit-sticky; 
 	position: sticky; 
 	top: 0;
 	padding:2px 0 2px 0; 
 	background-color: #E9EEF7;
-	z-index: 99;
+	z-index: 9999;
 }
 
-@media print, screen and (max-width: 100%) {
+@media print, screen and (max-width: 900px) {
 	.container {
         padding: 0 15px;
    }
@@ -477,7 +476,7 @@ ul li::marker {
 
 
 /* Optional: make it stack on small screens */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 900px) {
   .hero-card {
     flex-direction: column;
     text-align: center;

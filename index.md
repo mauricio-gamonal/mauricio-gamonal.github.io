@@ -38,7 +38,9 @@
   <div class="hero-text">
     <h2 style="text-align:left; margin-top:0;">Mauricio Gamonal</h2>
     <ul style="list-style:none; padding-left:0; line-height:1.5;">
-    <li><strong>Theoretical Physicist</strong></li>
+    <li><strong>Research Assistant -- Penn State University</strong></li>
+    <li>mgamonal at psu.edu</li>
+    <div style="margin-top:14px;"></div>
     <li>PhD 2026, Penn State, with <a href="https://ebianchi.org" target="_blank">Eugenio Bianchi</a> </li>
     <li>MSc 2021, PUC Chile, with <a href="https://www.fis.uc.cl/~academiasenior/web/JA/JA.html" target="_blank">Jorge Alfaro</a> </li>
     <div style="margin-top:14px;"></div>
@@ -74,7 +76,7 @@
 
   {% if item.youtube_id %}
     <div style="margin-top:8px;">
-      <iframe width="100%" height="300"
+      <iframe width="100%" height="350"
         src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}"
         frameborder="0"
         allowfullscreen>

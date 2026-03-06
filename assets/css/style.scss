@@ -477,7 +477,17 @@ ul li::marker {
   margin-top: 28px;
 }
 
-
+.container,
+.page__content,
+section,
+main,
+.wrapper {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
 
 /* Optional: make it stack on small screens */
 @media screen and (max-width: 1000px) {

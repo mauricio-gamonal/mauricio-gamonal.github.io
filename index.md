@@ -38,7 +38,7 @@
   <div class="hero-text">
     <h2 style="text-align:left; margin-top:0;">Mauricio Gamonal</h2>
     <ul style="list-style:none; padding-left:0; line-height:1.5;">
-    <li><strong>Research Assistant -- Penn State University</strong></li>
+    <li><strong>Research Assistant — Penn State</strong></li>
     <li>mgamonal at psu.edu</li>
     <div style="margin-top:14px;"></div>
     <li>PhD 2026, Penn State, with <a href="https://ebianchi.org" target="_blank">Eugenio Bianchi</a> </li>

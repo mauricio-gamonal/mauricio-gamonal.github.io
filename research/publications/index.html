@@ -11,9 +11,8 @@ permalink: /research/publications/
 {% assign pubs = site.data.publications %}
 {% assign years = pubs | map: "year" | uniq %}
 
-
 {% for y in years %}
- {{ y }}
+<h2>{{ y }}</h2>
 
 <ul class="custom-bullets">
   {% for p in pubs %}
@@ -30,24 +29,18 @@ permalink: /research/publications/
         {% if p.journal %}
           {% if p.doi %}
             <a href="https://doi.org/{{ p.doi }}">
-              <em>{{ p.journal }}</em>
-              {% if p.volume %} {{ p.volume }}{% endif %}
-              {% if p.pages %}, {{ p.pages }}{% endif %}
-            </a>.
+              <em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}
+            </a>
           {% else %}
-            <em>{{ p.journal }}</em>
-            {% if p.volume %} {{ p.volume }}{% endif %}
-            {% if p.pages %}, {{ p.pages }}{% endif %}.
+            <em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}
           {% endif %}
         {% endif %}
 
         {% if p.arxiv %}
-          <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>.
-        {% endif %}
+          [<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>]
+        {% endif %}.
       </li>
     {% endif %}
   {% endfor %}
 </ul>
-
-
 {% endfor %}

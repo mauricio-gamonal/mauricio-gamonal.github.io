@@ -39,12 +39,14 @@
     <h2 style="text-align:left; margin-top:0;">Mauricio Gamonal</h2>
     <ul style="list-style:none; padding-left:0; line-height:1.5;">
     <li><strong>Research Assistant — Penn State</strong></li>
-    <li>mgamonal at psu.edu</li>
+    <li>mgamonal (at) psu.edu</li>
     <div style="margin-top:14px;"></div>
-    <li>PhD 2026, Penn State, with <a href="https://ebianchi.org" target="_blank">Eugenio Bianchi</a> </li>
-    <li>MSc 2021, PUC Chile, with <a href="https://www.fis.uc.cl/~academiasenior/web/JA/JA.html" target="_blank">Jorge Alfaro</a> </li>
+    <li>PhD 2026, Penn State (advisor: <a href="https://ebianchi.org" target="_blank">Eugenio Bianchi</a>) </li>
+    <li>MSc 2021, PUC Chile (advisor: <a href="https://www.fis.uc.cl/~academiasenior/web/JA/JA.html" target="_blank">Jorge Alfaro</a>)</li>
     <div style="margin-top:14px;"></div>
-    <li> My research lies at the interface of quantum gravity and cosmology. I aim to explore how classical spacetime emerges from quantum geometry and how this process can leave observable imprints in the primordial Universe. </li>
+    <li> My research lies at the interface of quantum gravity and cosmology. 
+    I study how classical spacetime emerges from quantum geometry and 
+    how this process may leave observable imprints in the primordial Universe. </li>
   </ul>
   </div>
   
@@ -76,7 +78,7 @@
 
   {% if item.youtube_id %}
     <div style="margin-top:8px;">
-      <iframe width="100%" height="350"
+      <iframe width="100%" height="512"
         src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}"
         frameborder="0"
         allowfullscreen>

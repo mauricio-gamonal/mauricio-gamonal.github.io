@@ -7,7 +7,9 @@ permalink: /research/publications/
 <h1 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 25px;">
   Publications
 </h1>
-<div> *The authors are listed in alphabetical order, following the standard use in theoretical physics and gravity.</div>
+
+<div><em>The authors are listed in alphabetical order, following the standard use in theoretical physics and gravity.</em></div>
+<div style="height: 8px;"></div>
 
 {% assign pubs = site.data.publications %}
 {% assign years = pubs | map: "year" | uniq %}
@@ -24,22 +26,18 @@ permalink: /research/publications/
         {% endif %}
 
         {% if p.title %}
-          <em>{{ p.title }}</em>,
+          <em>{{ p.title }}</em>{% if p.journal %},{% endif %}
         {% endif %}
 
         {% if p.journal %}
           {% if p.doi %}
-            <a href="https://doi.org/{{ p.doi }}">
-              <em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}
-            </a>
+            <a href="https://doi.org/{{ p.doi }}"><em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}</a>
           {% else %}
             <em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}
           {% endif %}
         {% endif %}
 
-        {% if p.arxiv %}
-          [<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>]
-        {% endif %}
+        {% if p.arxiv %} <a href="https://arxiv.org/abs/{{ p.arxiv }}">[arXiv:{{ p.arxiv }}]</a>{% endif %}.
       </li>
     {% endif %}
   {% endfor %}

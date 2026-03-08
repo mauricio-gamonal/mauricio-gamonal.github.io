@@ -7,6 +7,7 @@ permalink: /research/publications/
 <h1 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 25px;">
   Publications
 </h1>
+<div> *The authors are listed in alphabetical order, following the standard use in theoretical physics and gravity.</div>
 
 {% assign pubs = site.data.publications %}
 {% assign years = pubs | map: "year" | uniq %}
@@ -23,7 +24,7 @@ permalink: /research/publications/
         {% endif %}
 
         {% if p.title %}
-          <em>{{ p.title }}</em>.
+          <em>{{ p.title }}</em>,
         {% endif %}
 
         {% if p.journal %}
@@ -38,7 +39,7 @@ permalink: /research/publications/
 
         {% if p.arxiv %}
           [<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>]
-        {% endif %}.
+        {% endif %}
       </li>
     {% endif %}
   {% endfor %}

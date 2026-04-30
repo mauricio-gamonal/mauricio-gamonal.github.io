@@ -3,16 +3,16 @@
   title: "Emergence of preinflationary dynamics in higher order gravity"
   journal: "in preparation"
   year: 2026
-  status: "in preparation (expected April 2026)"
+  status: "in preparation"
 
-- id: Causality-2026
+- id: Bianchi:2026vbr
   authors: "E. Bianchi, C. Chen, and M. Gamonal"
-  title: "Toller matrices and the Feynman iε for spinfoams"
-  journal: "in preparation"
+  title: "Toller matrices and the Feynman iε in spinfoams"
+  arxiv: "2604.24945"
+  arxiv_field: "gr-qc"
   year: 2026
-  status: "in preparation (expected March 2026)"
 
-- id: Causality-2025
+- id: Bianchi:2026rjd
   authors: "E. Bianchi, C. Chen, and M. Gamonal"
   title: "Causal spinfoam vertex in 4d Lorentzian quantum gravity"
   arxiv: "2601.23162"

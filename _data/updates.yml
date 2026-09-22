@@ -1,5 +1,5 @@
 - date: 2026-09
-  title: "WOST school 2026 at Les Heuches!"
+  title: "WOST school 2026 at École de physique des Houches!"
   image: "/Docs/images/LesHeuches.jpeg"
 
 - date: 2026-08
@@ -7,7 +7,7 @@
   links:
     - label: "poster"
       url: "/Docs/files/poster-cosmo26.pdf"
-  image: "/Docs/images/COSMO26.jpeg"
+  image: "/Docs/images/COSMO26.jpg"
 
 - date: 2026-04
   title: "Preprint: Toller matrices and the Feynman iε in spinfoams"

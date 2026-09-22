@@ -1,5 +1,8 @@
 - date: 2026-09
   title: "WOST school 2026 at École de physique des Houches!"
+  links:
+    - label: "event"
+      url: "https://withoutspacetime.org/meetings/les-houches-school/"
   image: "/Docs/images/LesHeuches.jpeg"
 
 - date: 2026-08
@@ -8,6 +11,10 @@
     - label: "poster"
       url: "/Docs/files/poster-cosmo26.pdf"
   image: "/Docs/images/COSMO26.jpg"
+
+- date: 2026-05
+  title: "Officially a PhD!"
+  image: "/Docs/images/defense3.jpg"
 
 - date: 2026-04
   title: "Preprint: Toller matrices and the Feynman iε in spinfoams"
@@ -20,7 +27,7 @@
   links:
     - label: "slides"
       url: "/Docs/files/defense-slides.pdf"   # file stored in your repo
-  image: "/Docs/images/defense2.jpeg"
+  #image: "/Docs/images/defense2.jpeg"
   #kind: "link"
   #url: "https://relativity.phys.lsu.edu/ilqgs/"
 

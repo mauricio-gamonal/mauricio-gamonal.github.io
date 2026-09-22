@@ -1,5 +1,16 @@
+- date: 2026-09
+  title: "WOST school 2026 at Les Heuches!"
+  image: "/Docs/images/LesHeuches.jpeg"
+
+- date: 2026-08
+  title: "COSMO 26 at Leiden University"
+  links:
+    - label: "poster"
+      url: "/Docs/files/poster-cosmo26.pdf"
+  image: "/Docs/images/COSMO26.jpeg"
+
 - date: 2026-04
-  title: "Pre-print: Toller matrices and the Feynman iε in spinfoams"
+  title: "Preprint: Toller matrices and the Feynman iε in spinfoams"
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2604.24945"
@@ -22,7 +33,7 @@
       url: "https://relativity.phys.lsu.edu/ilqgs/gamonal020326.pdf"
       
 - date: 2026-01
-  title: "Pre-print: Causal spinfoam vertex"
+  title: "Preprint: Causal spinfoam vertex"
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2601.23162"
